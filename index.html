@@ -86,6 +86,38 @@
 	</section><!-- /#top-section -->
 	<!-- Top Section End -->
 
+	<!-- Menu -->
+	<div class="main-menu-continer">
+		<div id="main-menu" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<!-- Responsive Navigation -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle Navigation</span>
+						<i class="fa fa-bars"></i>
+					</button> <!-- /.navbar-toggle -->
+					<!-- Logo -->
+					<a style="padding:15px" class="navbar-brand" href="index.html">
+						<img style="height: 50px" class="img-responsive" src="images/favicon.png" alt="Logo">
+					</a><!-- /.navbar-brand -->
+					<a class="navbar-brand" href="index.html">
+						<span>Ecomp</span>JR
+					</a><!-- /.navbar-brand -->
+
+				</div> <!-- /.navbar-header -->
+
+				<nav class="collapse navbar-collapse" role="navigation">
+					<!-- Main navigation -->
+					<ul id="headernavigation" class="nav navbar-nav pull-right">
+						<li class="active hidden"><a href="#page-top">Home</a></li>
+						<li><a href="#about">Sobre</a></li>
+					</ul> <!-- /.nav .navbar-nav -->
+				</nav> <!-- /.navbar-collapse  -->
+			</div> <!-- /.container -->
+		</div><!-- /#main-menu -->
+	</div><!-- /.main-menu-continer -->
+	<!-- Menu End -->
+
 	<div id="scroll-to-top">
 		<span>
 			<i class="fa fa-chevron-up"></i>    
@@ -131,6 +163,22 @@
 		  }
 		);
 		wow.init();
+
+		jQuery(document).ready(function($) {
+			"use strict";
+
+			/*---------------------- Current Menu Item -------------------------*/
+			$('#main-menu #headernavigation').onePageNav({
+				currentClass: 'active',
+				changeHash: false,
+				scrollSpeed: 750,
+				scrollThreshold: 0.5,
+				scrollOffset: 160,
+				filter: ':not(.sub-menu a, .not-in-home)',
+				easing: 'swing'
+			}); 
+		});
+		// document ready function End
 	</script>
 </body>
 </html>
