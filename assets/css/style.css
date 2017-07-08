@@ -953,8 +953,8 @@ textarea.form-control{
 /* 2.11 - Section Headings and Description 
 --------------------------------------------- */
 .sec-head-container {
-	margin-top: 150px;
-	margin-bottom: 120px;
+	margin-top: 120px;
+	margin-bottom: 90px;
 	overflow: hidden;
 }
 .sec-head-container  .sec-head-style {
@@ -1021,7 +1021,7 @@ textarea.form-control{
 ---------------------------------------------*/
 .owl-controls {
 	text-align: center;
-	margin-top: 45px;
+	margin-top: 0px;
 }
 .owl-page {
 	background-color: transparent;
@@ -1165,7 +1165,7 @@ textarea.form-control{
 	margin: 0;
 }
 .navbar {
-	min-height: 80px;
+	min-height: 70px;
 	border:none;
 	margin-bottom:0;
 }
@@ -1177,7 +1177,7 @@ textarea.form-control{
 	clear: both;
 }
 .navbar-brand {
-	height: 80px;
+	height: 10px;
 	font-size: 2rem;
 	font-weight: 900;
 	padding:0 15px; 
@@ -1200,8 +1200,8 @@ textarea.form-control{
 .navbar-nav>li>a {
 	font-size: 0.9375em;
 	font-weight: 700;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	position: relative;
 }
 .navbar-nav>li>a:after {
@@ -1330,7 +1330,7 @@ textarea.form-control{
 /* 5 - About Us Section
 ---------------------------------------------------------------------- */
 .about-us-section {
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 .over-view {
 	padding: 40px 0;
@@ -2056,7 +2056,6 @@ textarea.form-control{
 /* 15 - Quote Section 
 ----------------------------------------------------------------------*/
 .quote-area {
-	min-height: 400px;
 	text-align: center;
 }
 .quote-area blockquote {
@@ -2064,15 +2063,10 @@ textarea.form-control{
 }
 .quote-area .quote-description {
 	color: #ffffff;
-	padding-top: 125px;
-	font-size: 2em;
-	line-height: 50px;
-}
-.quote-area .quote-author {
-	color: #ffffff;
-	font-size: .95em;
-	padding-bottom: 115px;
-	padding-top: 15px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 25px;
+	line-height: 35px;
 }
 /* 15 - Quote Section End
 ----------------------------------------------------------------------*/
@@ -2082,7 +2076,7 @@ textarea.form-control{
 /* 16 - Blog Section  
 ----------------------------------------------------------------------*/
 .blog-section {
-	padding-bottom: 80px;
+	padding-bottom: 20px;
 }
 .blog-section .post-content {
 	max-width: 500px;
@@ -2097,7 +2091,8 @@ textarea.form-control{
 }
 .post-content .post-container {
 	background-color: #f7f7f7;
-	padding: 20px;
+	padding: 10px;
+	min-height: 220px;
 }
 .post-content  .post-meta {
 	font-size: 0.875em;
@@ -2106,10 +2101,10 @@ textarea.form-control{
 	display: inline-block;
 }
 .post-content {
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 }
 .post-content .post-title {
-	color: #262626;
+	color: #1d6fb7;
 	font-size: 1.25em;
 	font-weight: 800;
 	line-height: 26px;

@@ -153,8 +153,8 @@
   		display:block !important;
 	}
 	.navbar-toggle {
-		margin-top: 15px;
-		margin-bottom: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	.container>.navbar-header, 
 	.container-fluid>.navbar-header, 
@@ -178,7 +178,7 @@
 	.navbar-default .navbar-toggle:hover, 
 	.navbar-default .navbar-toggle:focus {
 		background-color: transparent;
-		color: #1fb5ac;
+		color: #1d6fb7;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: transparent;
@@ -221,14 +221,14 @@
 		color: #262626;
 	}
 	.navbar-nav>li .sub-menu>li>a:hover {
-		color: #1fb5ac;
+		color: #1d6fb7;
 		background: inherit !important;
 	}
 	.toggle_nav_button{
 		display: block;
 		color: #FFF;
 		font-size: 28px;
-		background-color: #1fb5ac;
+		background-color: #1d6fb7;
 		line-height: 20px;
 		text-align: center;
 		position: absolute;
