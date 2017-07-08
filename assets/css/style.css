@@ -3790,6 +3790,10 @@ blockquote.post-blockquote:before{
 /*  - Style Section
 ---------------------------------------------------------------------- */
 
+.logo .img-responsive {
+    margin: 0 auto;
+
+}
 
 /*  - Style Section End
 ---------------------------------------------------------------------- */
