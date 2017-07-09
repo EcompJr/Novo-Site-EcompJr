@@ -1599,7 +1599,8 @@ textarea.form-control{
 .service-container li {
 	list-style: none;
 	text-align: center;
-	padding: 35px 15px;
+	padding: 35px 15px 0px 15px;
+	min-height: 310px;
 	position: relative;
 	overflow: hidden;
 }
@@ -1629,18 +1630,6 @@ textarea.form-control{
 .service-container li:nth-child(even) {
 	background-color: #f2f2f2;
 }
-.service-container li:nth-child(2n+5) {
-	background-color: #f2f2f2;
-} 
-.service-container li:nth-child(2n+6) {
-	background-color: #f7f7f7;
-}
-.service-container li:nth-child(2n+9) {
-	background-color: #f7f7f7;
-}
-.service-container li:nth-child(2n+10) {
-	background-color: #f2f2f2;
-} 
 .service-container li, 
 .service-container li:before,
 .service-container li .service-icon, 
@@ -2996,6 +2985,11 @@ blockquote.post-blockquote:before{
 }
 .post-navigation .nav-icon {
 	display: none;
+}
+@media screen and (min-width: 768px){
+	.we-do-description {
+		padding-left: 40px
+	}
 }
 @media screen and (min-width: 1250px) {
 	.post-navigation {
