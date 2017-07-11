@@ -3746,6 +3746,33 @@ blockquote.post-blockquote:before{
 	opacity: 1;
 }
 
+#scroll-to-top2 {
+	background-color: #1d6fb7;
+	color: #ffffff;
+	font-size: 1.5em;
+	position: fixed;
+	right: 50px;
+	bottom: 40px;
+	cursor: pointer;
+	display: none;
+	opacity: .7;
+	z-index: 99999;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 3px;
+
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+#scroll-to-top:hover {
+	opacity: 1;
+}
+
 /* 29 - Scroll Top Section End
 ---------------------------------------------------------------------- */
 

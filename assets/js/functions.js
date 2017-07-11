@@ -94,6 +94,8 @@ jQuery(window).on('scroll', function (){
 
   /*------------------- Team Member Slider  --------------*/
   var teamSlider = $("#team-member-slider");
+  var teamSlider2 = $("#team-member-slider-2");
+  var teamSlider3 = $("#team-member-slider-3");
 
   teamSlider.owlCarousel({
     autoPlay : 3000,
@@ -115,7 +117,45 @@ jQuery(window).on('scroll', function (){
         responsiveBaseWidth: window
     });
 
+  teamSlider2.owlCarousel({
+    autoPlay : 3000,
+    stopOnHover : true,
+    pagination : true,
+    paginationNumbers: false,
 
+    itemsCustom : [
+    [0, 1],
+    [450, 1],
+    [600, 1],
+    [700, 2],
+    [1000, 3],
+    [1200, 4],
+    ],
+        // Responsive 
+        responsive: true,
+        responsiveRefreshRate : 200,
+        responsiveBaseWidth: window
+    });
+
+    teamSlider3.owlCarousel({
+    autoPlay : 3000,
+    stopOnHover : true,
+    pagination : true,
+    paginationNumbers: false,
+
+    itemsCustom : [
+    [0, 1],
+    [450, 1],
+    [600, 1],
+    [700, 2],
+    [1000, 3],
+    [1200, 4],
+    ],
+        // Responsive 
+        responsive: true,
+        responsiveRefreshRate : 200,
+        responsiveBaseWidth: window
+    });
 
   /*--------------  Pricing Table Slider  -----------------*/
   var priceSlider = $("#pricing-table-slider");

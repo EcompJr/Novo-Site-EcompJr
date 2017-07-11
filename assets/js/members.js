@@ -7,7 +7,7 @@
             facebook: 'https://www.facebook.com/alisson.vilasverde',
             job: 'Diretor de Marketing',
             text: 'Saberá subir na vida aquele que tem a humildade de descer quantas vezes precisar.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-1.jpg'
         },
         {
             name: 'Bernardo Rosa',
@@ -16,7 +16,7 @@
             facebook: 'https://www.facebook.com/brnrdrosa',
             job: 'Diretor Financeiro',
             text: 'Quem se define se limita.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-2.jpg'
         },
         {
             name: 'Bruno Vogel',
@@ -25,7 +25,7 @@
             facebook: 'https://www.facebook.com/bruno.vogel.33',
             job: 'Assessor de Projetos',
             text: 'Você já reparou com quem os acidentes acontecem? O acaso só beneficia as mentes preparadas.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-3.jpg'
        },
         {
             name: 'Cássio Santos',
@@ -34,7 +34,7 @@
             facebook: 'https://www.facebook.com/ssscassio',
             job: 'Vice-Presidente',
             text: 'Não procure culpados, procure soluções.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-4.jpg'
         },
         {
             name: 'Fábio Barros',
@@ -43,7 +43,7 @@
             facebook: 'https://www.facebook.com/MrFabugo',
             job: 'Conselheiro',
             text: 'Nunca preparado mas sempre pronto para agir.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-5.jpg'
         },
         {
             name: 'Gledson de Oliveira',
@@ -52,7 +52,7 @@
             facebook: 'https://www.facebook.com/gleddson.oliveira.1',
             job: 'Conselheiro',
             text: 'Isso também passa.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-6.jpg'
         }, 
         {
             name: 'Kayo Costa',
@@ -61,7 +61,7 @@
             facebook: 'https://www.facebook.com/kayocosta',
             job: 'Diretor de Recursos Humanos',
             text: 'Pessoas > Máquinas',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-7.jpg'
         },  
         {
             name: 'Luan Victor',
@@ -70,7 +70,7 @@
             facebook: 'https://www.facebook.com/luanvictor1996',
             job: 'Assessor de Recursos Humanos',
             text: '',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-8.jpg'
         },  
         {
             name: 'Lucas Alves',
@@ -79,7 +79,7 @@
             facebook: 'https://www.facebook.com/lucasalves.oliveira.94',
             job: 'Assessor de Vice-Presidência',
             text: 'Si vis pacem, para bellum',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-9.jpg'
         },  
         {
             name: 'Lucas Cardoso',
@@ -88,7 +88,7 @@
             facebook: 'https://www.facebook.com/thelucascardoso',
             job: 'Membro',
             text: 'Tudo é como um cubo mágico, aparentemente impossível, nas tudo é questão de perspectiva.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-10.jpg'
         },  
         {
             name: 'Maria Luísa',
@@ -97,7 +97,7 @@
             facebook: '#',
             job: 'Membro',
             text: 'Você nunca sabe que resultados virão da sua ação. Mas se você não fizer nada, não existirão resultados.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-11.jpg'
         },  
         {
             name: 'Nilson Augusto',
@@ -106,7 +106,7 @@
             facebook: 'https://www.facebook.com/nilsonaugusto',
             job: 'Assessor de Vendas',
             text: 'Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-12.jpg'
         },  
         {
             name: 'Odivio Caio',
@@ -115,7 +115,7 @@
             facebook: 'https://www.facebook.com/bezourokq.odiviocaio',
             job: 'Membro',
             text: 'Eu não gosto da ecompJR, mas estou aqui para gostar!',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-13.jpg'
         },  
         {
             name: 'Pedro Brandão',
@@ -124,7 +124,7 @@
             facebook: 'https://www.facebook.com/peubrandao',
             job: 'Assessor de Marketing',
             text: 'Seja a mudança que quer ver no mundo.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-14.jpg'
         },  
         {
             name: 'Pedro Neri',
@@ -133,7 +133,7 @@
             facebook: 'https://www.facebook.com/pedneri1',
             job: 'Presidente',
             text: 'Falar é fácil, me mostre o código.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-15.jpg'
         },  
         {
             name: 'Saulo de Tarso',
@@ -142,7 +142,7 @@
             facebook: 'https://www.facebook.com/sdtarso',
             job: 'Diretor de Projetos',
             text: 'Aprenda a ter disciplina, pois nem sempre haverá motivação.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-16.jpg'
         },  
         {
             name: 'Thatianne Cristina',
@@ -151,7 +151,7 @@
             facebook: 'https://www.facebook.com/thati.cristina.18',
             job: 'Assessor Financeiro',
             text: 'Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco.',
-            image: 'images/members/member-1.png'
+            image: 'images/members/member-17.jpg'
         },            
     ]
 
