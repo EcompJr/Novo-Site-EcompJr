@@ -3776,6 +3776,29 @@ blockquote.post-blockquote:before{
 ---------------------------------------------------------------------- */
 
 
+/* 31 - Partner Section
+---------------------------------------------------------------------- */
+.partner-item img {
+	opacity:0.4;
+	transition: all .25s ease;
+	max-height: 100px;
+	margin: auto;
+}
+
+.partner-item {
+	text-align: center
+}
+.partner-item:hover img {
+	opacity:1;
+}
+
+.partner-you {
+	background-color: #AAAAAA
+}
+/* 31 - Partner Section End
+---------------------------------------------------------------------- */
+
+
 /*  - Style Section
 ---------------------------------------------------------------------- */
 
