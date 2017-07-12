@@ -69,7 +69,7 @@
             github: 'https://github.com/luanvicttor',
             facebook: 'https://www.facebook.com/luanvictor1996',
             job: 'Assessor de Recursos Humanos',
-            text: '',
+            text: 'O segredo do sucesso é a constância de propósito.',
             image: 'images/members/member-8.jpg'
         },  
         {

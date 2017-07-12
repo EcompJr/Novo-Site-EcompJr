@@ -69,7 +69,7 @@
             github: 'https://github.com/luanvicttor',
             facebook: 'https://www.facebook.com/luanvictor1996',
             job: 'Assessor de Recursos Humanos',
-            text: '',
+            text: 'O segredo do sucesso é a constância de propósito.',
             image: 'images/members/member-8.jpg'
         },  
         {
@@ -155,6 +155,13 @@
         },            
     ]
 
+    orientador = [{
+        name: "Thiago de Lima Mariano",
+        text: "Email: mariano.tihago@gmail.com",
+        image: "images/members/orientador-0.jpg",
+        job: 'Orientador',
+        lattes: 'http://lattes.cnpq.br/5083837918787802'
+    }]
     diretores = [members[15],members[14], members[6], members[3], members[0], members[1]];
     diretores = shuffle(diretores);
     
@@ -163,6 +170,8 @@
     
     members = [members[2],members[7],members[8],members[9],members[10],members[11],members[12],members[13],members[16]];
     members = shuffle(members);
+
+    $('#orientador-0').html('<div class="inner-container"><img src="'+orientador[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+orientador[0].name+'</h4><p class="designation">'+orientador[0].job+'</p><p>'+orientador[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+orientador[0].lattes+'" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
 
     $('#diretor-0').html('<div class="inner-container"><img src="'+diretores[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[0].name+'</h4><p class="designation">'+diretores[0].job+'</p><p>'+diretores[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a><a target="_blank" href="'+diretores[0].facebook+'" class="facebook-btn"><i class="fa fa-facebook"></i></a></div></div></div>')
     $('#diretor-1').html('<div class="inner-container"><img src="'+diretores[1].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[1].name+'</h4><p class="designation">'+diretores[1].job+'</p><p>'+diretores[1].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[1].github+'" class="twitter-btn"><i class="fa fa-github"></i></a><a target="_blank" href="'+diretores[1].facebook+'" class="facebook-btn"><i class="fa fa-facebook"></i></a></div></div></div>')
