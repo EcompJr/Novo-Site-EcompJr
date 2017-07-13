@@ -1477,6 +1477,8 @@ textarea.form-control{
 .member-container p{
 	color: #ffffff;
 	padding: 0;
+	padding-top: 5px;
+	line-height: 17px;
 }
 .member-container .designation {
 	font-size: 14px;
@@ -2468,6 +2470,7 @@ textarea.form-control{
 	text-align: center;
 	min-height: 60px;
 	padding: 40px 0 40px 0;
+	background-color: #1d6fb7;
 }
 .copyrights{
 	color: #262626;
