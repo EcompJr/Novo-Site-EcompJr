@@ -87,7 +87,7 @@
             github: 'https://github.com/skillinhow',
             facebook: 'https://www.facebook.com/thelucascardoso',
             job: 'Membro',
-            text: 'Tudo é como um cubo mágico, aparentemente impossível, nas tudo é questão de perspectiva.',
+            text: 'Tudo é como um cubo mágico, aparentemente impossível, mas tudo é questão de perspectiva.',
             image: 'images/members/member-10.jpg'
         },  
         {
@@ -173,18 +173,18 @@
         }
     }
   function shuffle(array) {
-    let counter = array.length;
+    var counter = array.length;
 
     // While there are elements in the array
     while (counter > 0) {
         // Pick a random index
-        let index = Math.floor(Math.random() * counter);
+        var index = Math.floor(Math.random() * counter);
 
         // Decrease counter by 1
         counter--;
 
         // And swap the last element with it
-        let temp = array[counter];
+        var temp = array[counter];
         array[counter] = array[index];
         array[index] = temp;
     }
