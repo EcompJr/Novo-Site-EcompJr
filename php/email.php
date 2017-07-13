@@ -1,19 +1,12 @@
 <?php
-	extract($_POST);
+if($_POST){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $subject = $_POST['subject'];
 	$to = "ecompjr@uefs.br";
-	$fullSubject = "Contato $subject:$name:$email";
-	$txt = $message;
-	$headers = "From: ecompjr@uefs.br" . "\r\n" .
-	"CC: $email";
-    
-    if (@mail($to,$fullSubject,$txt,$headers))
-    {
-        // Transfer the value 'sent' to ajax function for showing success message.
-        echo 'sent';
-    }
-    else
-    {
-        // Transfer the value 'failed' to ajax function for showing error message.
-        echo 'failed';
-    }
+
+    //send email
+    mail($to, "Assunto: ".$subject." de ".$email, $message);
+}
 ?>

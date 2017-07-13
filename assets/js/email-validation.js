@@ -41,25 +41,33 @@ jQuery(document).ready(function($) {
             // If there is no validation error, next to process the mail function
             if(error == false){
                // Disable submit button just after the form processed 1st time successfully.
-               $('#send_message').attr({'disabled' : 'true', 'value' : 'Sending...' });
-
+               $('#send_message').attr({'disabled' : 'true' }).text("Enviando...");
+               var data = {
+                    name: jw_name,
+                    email: jw_email,
+                    message: jw_message,
+                    subject: jw_subject
+                };
                /* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-               $.post("email.php", $("#contact-form").serialize(),function(result){
-                    //Check the result set from email.php file.
-                    if(result == 'sent'){
+               $.post({
+                    type: "POST",
+                    url: "../../php/email.php",
+                    data: data,
+                    success: function(){
                         //If the email is sent successfully, remove the submit button
                         $('#name').remove();
                         $('#email').remove();
                         $('#subject').remove();
-                        $('#your_message').remove();
+                        $('#message').remove();
                         $('#submit').remove();
                         //Display the success message
                         $('#mail_success').fadeIn(500);
-                    }else{
-                        //Display the error message
+                    },
+                    error: function () {
                         $('#mail_fail').fadeIn(500);
                         // Enable the submit button again
-                        $('#send_message').removeAttr('disabled').attr('value', 'Send The Message');
+                        $('#send_message').removeAttr('disabled');
+                        $('#send_message').text('Enviar Mensagem');
                     }
                 });
            }
