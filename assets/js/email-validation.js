@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
             var jw_name = $('#name').val();
             var jw_email = $('#email').val();
             var jw_subject = $('#subject').val();
-            var jw_message = $('#your_message').val();
+            var jw_message = $('#message').val();
             
          	// Form field validation
             if(jw_name.length == 0){
