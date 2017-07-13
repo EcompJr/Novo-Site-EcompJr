@@ -86,7 +86,7 @@
             email: 'lucascardoso@ecompjr.com.br',
             github: 'https://github.com/skillinhow',
             facebook: 'https://www.facebook.com/thelucascardoso',
-            job: 'Membro',
+            job: 'Membro Consultor',
             text: 'Tudo é como um cubo mágico, aparentemente impossível, mas tudo é questão de perspectiva.',
             image: 'images/members/member-10.jpg'
         },  
@@ -95,7 +95,7 @@
             email: 'lucas@ecompjr.com.br',
             github: 'https://github.com/LuisaSales',
             facebook: '#',
-            job: 'Membro',
+            job: 'Membro Consultor',
             text: 'Você nunca sabe que resultados virão da sua ação. Mas se você não fizer nada, não existirão resultados.',
             image: 'images/members/member-11.jpg'
         },  
@@ -113,7 +113,7 @@
             email: 'odivio@ecompjr.com.br',
             github: 'https://github.com/bezourokq',
             facebook: 'https://www.facebook.com/bezourokq.odiviocaio',
-            job: 'Membro',
+            job: 'Membro Consultor',
             text: 'Eu não gosto da ecompJR, mas estou aqui para gostar!',
             image: 'images/members/member-13.jpg'
         },  
@@ -149,7 +149,7 @@
             email: 'thatianne@ecompjr.com.br',
             github: 'https://github.com/Thatianne',
             facebook: 'https://www.facebook.com/thati.cristina.18',
-            job: 'Assessor Financeiro',
+            job: 'Assessora Financeira',
             text: 'Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco.',
             image: 'images/members/member-17.jpg'
         },            
