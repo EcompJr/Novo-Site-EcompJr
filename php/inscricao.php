@@ -49,7 +49,7 @@ function prepareEmail( $formData ) {
 	$message .= "\nOi, meu nome é ". $formData['name'];
 	$message .= "\nMeu endereço de e-mail é ". $formData['email'];
 	$message .= "\n\nVou falar um pouco sobre mim,\n".$formData['about'];
-	$message .= "\n\nEu quero entrar na ecompj\n".$formData['message']."\n";
+	$message .= "\n\nEu quero entrar na ecompjr\n".$formData['message']."\n";
 	$headers = "From: $from";
  
 	// boundary 
@@ -79,6 +79,11 @@ function sendMailAsAttachment( $filename, $fileorgname, $formData ) {
 	mail($emailData['to'], $emailData['subject'], $message, $emailData['headers']);
 	$confirmation = "Sua inscrição foi recebida!\n\nEntraremos em contato assim que a inscrição for encerrada.\nQualquer dúvida entrar em contato com kayo@ecompjr.com.br.";
 	mail($formData['email'],"[EcompJr] Inscrição PROSEL",$confirmation,"From: no-reply@ecompjr.com.br");
+
 }
 
 ?>
+<script>
+	alert("Inscrição realizada");
+	window.location= "http://ecompjr.com.br/";
+</script>
