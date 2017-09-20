@@ -42,7 +42,7 @@ function prepareAttachment( $filename ,$fileorgname) {
 function prepareEmail( $formData ) {
 	
 	// email fields: to, from, subject, and so on
-	$to = "fabugo@gmail.com";
+	$to = "kayo@ecompjr.com.br";
 	$from = "no-reply@ecompjr.com.br"; 
 	$subject ="[PROSEL] Inscrição " . $formData['name']; 
 	$message = "Comprovante de Matrícula anexado.";
