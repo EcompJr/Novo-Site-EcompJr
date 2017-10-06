@@ -795,6 +795,26 @@ textarea.form-control{
 	margin: 0 auto;
 	padding: 0;
 }
+#page-port-admjr {
+	background: url(../../images/portfolio/admjr_2.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-fbta {
+	background: url(../../images/portfolio/fbta_1.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-ref {
+	background: url(../../images/portfolio/ref_1.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-killq {
+	background: url(../../images/portfolio/killq_1.jpg) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
 #video-section {
 	background: url(../../images/background/video-section-bg.jpg) 50% 0 no-repeat fixed;
 	margin: 0 auto;
