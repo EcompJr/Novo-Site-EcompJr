@@ -26,7 +26,7 @@
             name: 'Bruno Vogel',
             email: 'bruno@ecompjr.com.br',
             github: 'https://github.com/BugVogel',
-            job: 'Assessor de Projetos',
+            job: 'Membro Consultor',
             text: 'Você já reparou com quem os acidentes acontecem? O acaso só beneficia as mentes preparadas.',
             image: 'images/members/member-3.jpg'
        },
@@ -47,7 +47,7 @@
             name: 'Emille',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
-            job: 'Membro Consultor'
+            job: 'Assessora de Admissão e Treinamento'
         },
         {
             name: 'Fábio Barros',
@@ -69,7 +69,7 @@
             name: 'Gustavo Boanerges',
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
-            job: 'Membro Consultor'
+            job: 'Assessor de administração'
         }, 
         {
             name: 'Karolyne Lima',
@@ -89,7 +89,7 @@
             name: 'Luan Victor',
             email: 'luan@ecompjr.com.br',
             github: 'https://github.com/luanvicttor',
-            job: 'Assessor de Recursos Humanos',
+            job: 'Membro Consultor',
             text: 'O segredo do sucesso é a constância de propósito.',
             image: 'images/members/member-8.jpg'
         },  
@@ -105,7 +105,7 @@
             name: 'Nilson Augusto',
             email: 'nilson@ecompjr.com.br',
             github: 'https://github.com/sinhoshow',
-            job: 'Assessor de Vendas',
+            job: 'Membro Consultor',
             text: 'Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.',
             image: 'images/members/member-12.jpg'
         },  
@@ -151,7 +151,7 @@
             name: 'Thatianne Cristina',
             email: 'thatianne@ecompjr.com.br',
             github: 'https://github.com/Thatianne',
-            job: 'Assessora Financeira',
+            job: 'Membro Consultor',
             text: 'Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco.',
             image: 'images/members/member-17.jpg'
         },
@@ -159,7 +159,7 @@
             name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
             github: 'https://github.com/ValmirAlmeida',
-            job: 'Membro Consultor'
+            job: 'Assessor de Conteúdo Digital'
         },        
     ]
 
