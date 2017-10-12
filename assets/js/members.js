@@ -9,7 +9,7 @@
             image: 'images/members/member-1.jpg'
         },
         {
-            name: 'Aloísio',
+            name: 'Aloísio Junior',
             email: 'aloisio@ecompjr.com.br',
             github: 'https://github.com/aloisiokjr',
             job: 'Membro Consultor'
@@ -39,7 +39,7 @@
             image: 'images/members/member-4.jpg'
         },
         {
-            name: 'Douglas',
+            name: 'Douglas Almeida',
             email: 'douglas@ecompjr.com.br',
             github: 'https://github.com/doug-ecomp',
             job: 'Membro Consultor'
@@ -66,13 +66,13 @@
             image: 'images/members/member-6.jpg'
         },
         {
-            name: 'Gustavo',
+            name: 'Gustavo Boanerges',
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
             job: 'Membro Consultor'
         }, 
         {
-            name: 'Karolyne',
+            name: 'Karolyne Lima',
             email: 'karolyne@ecompjr.com.br',
             github: 'https://github.com/karolynelima',
             job: 'Membro Consultor'
@@ -156,7 +156,7 @@
             image: 'images/members/member-17.jpg'
         },
         {
-            name: 'Valmir',
+            name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
             github: 'https://github.com/ValmirAlmeida',
             job: 'Membro Consultor'
