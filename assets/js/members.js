@@ -10,7 +10,7 @@
         },
         {
             name: 'Aloísio',
-            email: 'aloision@ecompjr.com.br',
+            email: 'aloisio@ecompjr.com.br',
             github: 'https://github.com/aloisiokjr',
             job: 'Membro Consultor'
         },
