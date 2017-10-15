@@ -44,7 +44,7 @@
             github: 'https://github.com/doug-ecomp',
             job: 'Membro Consultor'
         },{
-            name: 'Emille',
+            name: 'Emille Sampaio',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
             job: 'Assessora de Admissão e Treinamento'
@@ -144,7 +144,7 @@
             email: 'saulo@ecompjr.com.br',
             github: 'https://github.com/SkdTarso',
             job: 'Diretor de Projetos',
-            text: 'Aprenda a ter disciplina, pois nem sempre haverá motivação.',
+            text: 'Tenha disciplina, nem sempre haverá motivação.',
             image: 'images/members/member-16.jpg'
         },  
         {
@@ -165,7 +165,6 @@
 
     orientador = [{
         name: "Thiago de Lima Mariano",
-        text: "Email: mariano.tihago@gmail.com",
         image: "images/members/orientador-0.jpg",
         job: 'Orientador',
         lattes: 'http://lattes.cnpq.br/5083837918787802'
@@ -179,7 +178,7 @@
     members = [members[1],members[3],members[5],members[6],members[9],members[10],members[12],members[13],members[14],members[15],members[16],members[17],members[20],members[21]];
     members = shuffle(members);
 
-    $('#orientador-0').html('<div class="inner-container"><img src="'+orientador[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+orientador[0].name+'</h4><p class="designation">'+orientador[0].job+'</p><p>'+orientador[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+orientador[0].lattes+'" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
+    $('#orientador-0').html('<div class="inner-container"><img src="'+orientador[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+orientador[0].name+'</h4><p class="designation">'+orientador[0].job+'</p><div class="member-social-link"><a target="_blank" href="'+orientador[0].lattes+'" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
 
     $('#diretor-0').html('<div class="inner-container"><img src="'+diretores[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[0].name+'</h4><p class="designation">'+diretores[0].job+'</p><p>'+diretores[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[0])+'<a href="mailto:'+diretores[0].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#diretor-1').html('<div class="inner-container"><img src="'+diretores[1].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[1].name+'</h4><p class="designation">'+diretores[1].job+'</p><p>'+diretores[1].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[1].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[1])+'<a href="mailto:'+diretores[1].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
