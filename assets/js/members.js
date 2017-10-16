@@ -9,8 +9,8 @@
             image: 'images/members/member-1.jpg'
         },
         {
-            name: 'Aloísio',
-            email: 'aloision@ecompjr.com.br',
+            name: 'Aloísio Junior',
+            email: 'aloisio@ecompjr.com.br',
             github: 'https://github.com/aloisiokjr',
             job: 'Membro Consultor'
         },
@@ -26,7 +26,7 @@
             name: 'Bruno Vogel',
             email: 'bruno@ecompjr.com.br',
             github: 'https://github.com/BugVogel',
-            job: 'Assessor de Projetos',
+            job: 'Membro Consultor',
             text: 'Você já reparou com quem os acidentes acontecem? O acaso só beneficia as mentes preparadas.',
             image: 'images/members/member-3.jpg'
        },
@@ -39,7 +39,7 @@
             image: 'images/members/member-4.jpg'
         },
         {
-            name: 'Douglas',
+            name: 'Douglas Almeida',
             email: 'douglas@ecompjr.com.br',
             github: 'https://github.com/doug-ecomp',
             job: 'Membro Consultor'
@@ -47,7 +47,7 @@
             name: 'Emille',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
-            job: 'Membro Consultor'
+            job: 'Assessora de Admissão e Treinamento'
         },
         {
             name: 'Fábio Barros',
@@ -66,13 +66,13 @@
             image: 'images/members/member-6.jpg'
         },
         {
-            name: 'Gustavo',
+            name: 'Gustavo Boanerges',
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
-            job: 'Membro Consultor'
+            job: 'Assessor de administração'
         }, 
         {
-            name: 'Karolyne',
+            name: 'Karolyne Lima',
             email: 'karolyne@ecompjr.com.br',
             github: 'https://github.com/karolynelima',
             job: 'Membro Consultor'
@@ -89,7 +89,7 @@
             name: 'Luan Victor',
             email: 'luan@ecompjr.com.br',
             github: 'https://github.com/luanvicttor',
-            job: 'Assessor de Recursos Humanos',
+            job: 'Membro Consultor',
             text: 'O segredo do sucesso é a constância de propósito.',
             image: 'images/members/member-8.jpg'
         },  
@@ -105,7 +105,7 @@
             name: 'Nilson Augusto',
             email: 'nilson@ecompjr.com.br',
             github: 'https://github.com/sinhoshow',
-            job: 'Assessor de Vendas',
+            job: 'Membro Consultor',
             text: 'Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.',
             image: 'images/members/member-12.jpg'
         },  
@@ -151,35 +151,35 @@
             name: 'Thatianne Cristina',
             email: 'thatianne@ecompjr.com.br',
             github: 'https://github.com/Thatianne',
-            job: 'Assessora Financeira',
+            job: 'Membro Consultor',
             text: 'Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco.',
             image: 'images/members/member-17.jpg'
         },
         {
-            name: 'Valmir',
+            name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
             github: 'https://github.com/ValmirAlmeida',
-            job: 'Membro Consultor'
+            job: 'Assessor de Conteúdo Digital'
         },        
     ]
 
     members = shuffle(members);
 
-    $('#member-0').html('<div class="inner-container"><img src="'+members[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[0].name+'</h4><p class="designation">'+members[0].job+'</p><p>'+members[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+'<a href="mailto:'+members[0].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-1').html('<div class="inner-container"><img src="'+members[1].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[1].name+'</h4><p class="designation">'+members[1].job+'</p><p>'+members[1].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[1].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+'<a href="mailto:'+members[1].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-2').html('<div class="inner-container"><img src="'+members[2].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[2].name+'</h4><p class="designation">'+members[2].job+'</p><p>'+members[2].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[2].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+'<a href="mailto:'+members[2].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-3').html('<div class="inner-container"><img src="'+members[3].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[3].name+'</h4><p class="designation">'+members[3].job+'</p><p>'+members[3].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[3].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+'<a href="mailto:'+members[3].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
+    $('#member-0').html('<div class="inner-container"><img src="'+members[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[0].name+'</h4><p class="designation">'+members[0].job+'</p><p>'+members[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[0])+'<a href="mailto:'+members[0].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
+    $('#member-1').html('<div class="inner-container"><img src="'+members[1].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[1].name+'</h4><p class="designation">'+members[1].job+'</p><p>'+members[1].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[1].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[1])+'<a href="mailto:'+members[1].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
+    $('#member-2').html('<div class="inner-container"><img src="'+members[2].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[2].name+'</h4><p class="designation">'+members[2].job+'</p><p>'+members[2].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[2].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[2])+'<a href="mailto:'+members[2].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
+    $('#member-3').html('<div class="inner-container"><img src="'+members[3].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[3].name+'</h4><p class="designation">'+members[3].job+'</p><p>'+members[3].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[3].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[3])+'<a href="mailto:'+members[3].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
 
   });
 
 
-    // function getMemberFacebook(member){
-    //     if(member.facebook != ''){
-    //         return '<a target="_blank" href="'+member.facebook+'" class="facebook-btn"><i class="fa fa-facebook"></i></a>';
-    //     }else {
-    //         return ''
-    //     }
-    // }
+    function getMemberFacebook(member){
+        if(member.facebook){
+            return '<a target="_blank" href="'+member.facebook+'" class="facebook-btn"><i class="fa fa-facebook"></i></a>';
+        }else {
+            return ''
+        }
+    }
   function shuffle(array) {
     var counter = array.length;
 
