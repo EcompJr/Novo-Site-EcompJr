@@ -12,7 +12,9 @@
             name: 'Aloísio Junior',
             email: 'aloisio@ecompjr.com.br',
             github: 'https://github.com/aloisiokjr',
-            job: 'Membro Consultor'
+            job: 'Membro Consultor',
+            text:'"Um homem de sucesso é aquele que cria uma parede com os tijolos que jogaram nele" – David Brinkley',
+            image: 'images/members/member-18.jpg'
         },
         {
             name: 'Bernardo Rosa',
@@ -42,12 +44,17 @@
             name: 'Douglas Almeida',
             email: 'douglas@ecompjr.com.br',
             github: 'https://github.com/doug-ecomp',
-            job: 'Membro Consultor'
-        },{
-            name: 'Emille Sampaio',
+            job: 'Membro Consultor',
+            text: 'Creia em si, mas não duvide sempre dos outros.',
+            image: 'images/members/member-19.jpg'
+        },
+        {
+            name: 'Emille',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
-            job: 'Assessora de Admissão e Treinamento'
+            job: 'Assessora de Admissão e Treinamento',
+            text: '"Você pode ficar desapontado se falhar, mas você está condenado se não tentar." - Beverly Sills',
+            image: 'images/members/member-20.jpg'
         },
         {
             name: 'Fábio Barros',
@@ -69,13 +76,17 @@
             name: 'Gustavo Boanerges',
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
-            job: 'Assessor de administração'
+            job: 'Assessor de administração',
+            text: 'Você pode encontrar as coisas que perdeu, mas nunca as que abandonou.',
+            image: 'images/members/member-21.jpg'
         }, 
         {
             name: 'Karolyne Lima',
             email: 'karolyne@ecompjr.com.br',
             github: 'https://github.com/karolynelima',
-            job: 'Membro Consultor'
+            job: 'Membro Consultor',
+            text: 'Não há pacto entre leões e homens.',
+            image: 'images/members/member-22.jpg'
         }, 
         {
             name: 'Kayo Costa',
@@ -129,7 +140,9 @@
             name: 'Pedro Gomes',
             email: 'pedrogomes@ecompjr.com.br',
             github: 'https://github.com/PHGSantos',
-            job: 'Membro Consultor'
+            job: 'Membro Consultor',
+            text: 'Tente mover o mundo - o primeiro passo será mover a si mesmo.',
+            image: 'images/members/member-23.jpg'
         }, 
         {
             name: 'Pedro Neri',
@@ -144,7 +157,7 @@
             email: 'saulo@ecompjr.com.br',
             github: 'https://github.com/SkdTarso',
             job: 'Diretor de Projetos',
-            text: 'Tenha disciplina, nem sempre haverá motivação.',
+            text: 'Aprenda a ter disciplina, pois nem sempre haverá motivação.',
             image: 'images/members/member-16.jpg'
         },  
         {
@@ -159,7 +172,9 @@
             name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
             github: 'https://github.com/ValmirAlmeida',
-            job: 'Assessor de Conteúdo Digital'
+            job: 'Assessor de Conteúdo Digital',
+            text: 'Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer.',
+            image: 'images/members/member-24.jpg'
         },        
     ]
 
