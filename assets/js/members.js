@@ -49,7 +49,7 @@
             image: 'images/members/member-19.jpg'
         },
         {
-            name: 'Emille',
+            name: 'Emille Sampaio',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
             job: 'Assessora de Admissão e Treinamento',
