@@ -4,7 +4,7 @@
             name: 'Alisson Vilas',
             email: 'alisson@ecompjr.com.br',
             github: 'https://github.com/AlissonSVV',
-            job: 'Diretor de Marketing',
+            job: 'Membro Consultor',
             text: 'Saberá subir na vida aquele que tem a humildade de descer quantas vezes precisar.',
             image: 'images/members/member-1.jpg'
         },
@@ -12,23 +12,15 @@
             name: 'Aloísio Junior',
             email: 'aloisio@ecompjr.com.br',
             github: 'https://github.com/aloisiokjr',
-            job: 'Membro Consultor',
+            job: 'Diretor Administrativo Financeiro',
             text:'"Um homem de sucesso é aquele que cria uma parede com os tijolos que jogaram nele." – David Brinkley',
             image: 'images/members/member-18.jpg'
-        },
-        {
-            name: 'Bernardo Rosa',
-            email: 'bernardo@ecompjr.com.br',
-            github: 'https://github.com/brnrdrosa',
-            job: 'Diretor Financeiro',
-            text: 'Quem se define se limita.',
-            image: 'images/members/member-2.jpg'
-        },
+        },        
         {
             name: 'Bruno Vogel',
             email: 'bruno@ecompjr.com.br',
             github: 'https://github.com/BugVogel',
-            job: 'Membro Consultor',
+            job: 'Vice-Presidente',
             text: 'Você já reparou com quem os acidentes acontecem? O acaso só beneficia as mentes preparadas.',
             image: 'images/members/member-3.jpg'
        },
@@ -36,7 +28,7 @@
             name: 'Cássio Santos',
             email: 'cassio@ecompjr.com.br',
             github: 'https://github.com/ssscassio',
-            job: 'Vice-Presidente',
+            job: 'Conselheiro',
             text: 'Não procure culpados, procure soluções.',
             image: 'images/members/member-4.jpg'
         },
@@ -52,25 +44,9 @@
             name: 'Emille Sampaio',
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
-            job: 'Assessora de Admissão e Treinamento',
+            job: 'Diretora de Recursos Humanos',
             text: '"Você pode ficar desapontado se falhar, mas você está condenado se não tentar." - Beverly Sills',
             image: 'images/members/member-20.jpg'
-        },
-        {
-            name: 'Fábio Barros',
-            email: 'fabio@ecompjr.com.br',
-            github: 'https://github.com/fabugo',
-            job: 'Conselheiro',
-            text: 'Nunca preparado mas sempre pronto para agir.',
-            image: 'images/members/member-5.jpg'
-        },
-        {
-            name: 'Gledson de Oliveira',
-            email: 'gledson@ecompjr.com.br',
-            github: 'https://github.com/Gleddson',
-            job: 'Conselheiro',
-            text: 'Isso também passa.',
-            image: 'images/members/member-6.jpg'
         },
         {
             name: 'Gustavo Boanerges',
@@ -92,7 +68,7 @@
             name: 'Kayo Costa',
             email: 'kayo@ecompjr.com.br',
             github: 'https://github.com/kayo220',
-            job: 'Diretor de Recursos Humanos',
+            job: 'Conselheiro',
             text: 'Pessoas > Máquinas',
             image: 'images/members/member-7.jpg'
         },  
@@ -113,22 +89,6 @@
             image: 'images/members/member-10.jpg'
         },    
         {
-            name: 'Nilson Augusto',
-            email: 'nilson@ecompjr.com.br',
-            github: 'https://github.com/sinhoshow',
-            job: 'Membro Consultor',
-            text: 'Se você traçar metas absurdamente altas e falhar, seu fracasso será muito melhor que o sucesso de todos.',
-            image: 'images/members/member-12.jpg'
-        },  
-        {
-            name: 'Odivio Caio',
-            email: 'odivio@ecompjr.com.br',
-            github: 'https://github.com/bezourokq',
-            job: 'Membro Consultor',
-            text: 'Eu não gosto da ecompJR, mas estou aqui para gostar!',
-            image: 'images/members/member-13.jpg'
-        },  
-        {
             name: 'Pedro Brandão',
             email: 'pedro@ecompjr.com.br',
             github: 'https://github.com/pedrohenriquebrandao',
@@ -148,7 +108,7 @@
             name: 'Pedro Neri',
             email: 'pedroneri@ecompjr.com.br',
             github: 'https://github.com/Pedneri1',
-            job: 'Presidente',
+            job: 'Conselheiro',
             text: 'Falar é fácil, me mostre o código.',
             image: 'images/members/member-15.jpg'
         },  
@@ -156,7 +116,7 @@
             name: 'Saulo de Tarso',
             email: 'saulo@ecompjr.com.br',
             github: 'https://github.com/SkdTarso',
-            job: 'Diretor de Projetos',
+            job: 'Presidente',
             text: 'Aprenda a ter disciplina, pois nem sempre haverá motivação.',
             image: 'images/members/member-16.jpg'
         },  
@@ -172,7 +132,7 @@
             name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
             github: 'https://github.com/ValmirAlmeida',
-            job: 'Assessor de Conteúdo Digital',
+            job: 'Diretor de Projetos',
             text: 'Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer.',
             image: 'images/members/member-24.jpg'
         },        
