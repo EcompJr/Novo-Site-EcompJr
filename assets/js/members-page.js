@@ -139,10 +139,10 @@
     ]
 
     orientador = [{
-        name: "Thiago de Lima Mariano",
-        image: "images/members/orientador-0.jpg",
+        name: "Rodrigo Tripodi",
+        image: "images/members/orientador-1.jpg",
         job: 'Orientador',
-        lattes: 'http://lattes.cnpq.br/5083837918787802'
+        lattes: 'http://lattes.cnpq.br/3303713473565543'
     }]
     diretores = [members[5],members[2], members[1], members[14], members[16]];
     diretores = shuffle(diretores);
