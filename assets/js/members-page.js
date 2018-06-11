@@ -1,13 +1,6 @@
   jQuery(window).load(function(){
     members = [
-        {
-            name: 'Alisson Vilas',
-            email: 'alisson@ecompjr.com.br',
-            github: 'https://github.com/AlissonSVV',
-            job: 'Membro Consultor',
-            text: 'Saberá subir na vida aquele que tem a humildade de descer quantas vezes precisar.',
-            image: 'images/members/member-1.jpg'
-        },
+        
         {
             name: 'Aloísio Junior',
             email: 'aloisio@ecompjr.com.br',
@@ -135,7 +128,63 @@
             job: 'Diretor de Projetos',
             text: 'Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer.',
             image: 'images/members/member-24.jpg'
-        },        
+        },
+        {
+            name: 'Eduardo Marques',
+            email: 'eduardo@ecompjr.com.br',
+            github: 'https://github.com/dukmarques',
+            job: 'Membro Consultor',
+            text: '. no mundo tereis aflições, mas tende bom ânimo; eu venci o mundo. João 16:33',
+            image: 'images/members/member-25.jpg'
+        },
+        {
+            name: 'Émylle Andressa ',
+            email: 'andressa@ecompjr.com.br',
+            github: 'https://github.com/eaborges',
+            job: 'Membro Consultor',
+            text: 'Seja você a mudança que deseja ver.',
+            image: 'images/members/member-26.jpg'
+        },
+        {
+            name: 'Ariana Pereira',
+            email: 'ariana@ecompjr.com.br',
+            github: 'https://github.com/arianjsp',
+            job: 'Membro Consultor',
+            text: '"Você nunca vai sair pelo seu próprio ritmo e atirar pedras em cada um dos homens que estão atrasados." - Winston Churchill',
+            image: 'images/members/member-27.jpg'
+        },              
+        {
+            name: 'Emanuel',
+            email: 'emanuel@ecompjr.com.br',
+            github: 'https://github.com/ecomp1997',
+            job: 'Membro Consultor',
+            text: '" O futuro vai mostrar os resultados e julgar cada um segundo como suas realizações.',
+            image: 'images/members/member-28.jpg'
+        },              
+        {
+            name: 'Gabriel Silva de Azevedo',
+            email: 'gabriel@ecompjr.com.br',
+            github: 'https://github.com/Matoro17',
+            job: 'Membro Consultor',
+            text: 'Ha sempre algo maior na próxima porta',
+            image: 'images/members/member-29.jpg'
+        },
+        {
+            name: 'Johnny Santtana',
+            email: 'johnny@ecompjr.com.br',
+            github: 'https://github.com/JohnnySanttana72',
+            job: 'Membro Consultor',
+            text: 'O espirito de luta,fortalece a união',
+            image: 'images/members/member-30.jpg'
+        },                         
+        {
+            name: 'Khaick Oliveira Brito',
+            email: 'khaick@ecompjr.com.br',
+            github: 'https://github.com/khaickbrito',
+            job: 'Membro Consultor',
+            text: '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
+            image: 'images/members/member-31.jpg'
+        },                                                                     
     ]
 
     orientador = [{
@@ -144,13 +193,13 @@
         job: 'Orientador',
         lattes: 'http://lattes.cnpq.br/3303713473565543'
     }]
-    diretores = [members[5],members[2], members[1], members[14], members[16]];
+    diretores = [members[0],members[1], members[4], members[13], members[15]];
     diretores = shuffle(diretores);
     
-    conselheiros = [members[3], members[8],members[13]];
+    conselheiros = [members[2], members[7],members[12]];
     conselheiros = shuffle(conselheiros);
     
-    members = [members[0],members[4],members[6],members[7],members[9],members[10],members[11],members[12]];
+    members = [members[3],members[5],members[6],members[8],members[9],members[10],members[11],members[14],members[16],members[17],members[18],members[19],members[20],members[21],members[22]];
     members = shuffle(members);
 
     $('#orientador-0').html('<div class="inner-container"><img src="'+orientador[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+orientador[0].name+'</h4><p class="designation">'+orientador[0].job+'</p><div class="member-social-link"><a target="_blank" href="'+orientador[0].lattes+'" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
@@ -182,7 +231,8 @@
     $('#membro-11').html('<div class="inner-container"><img src="'+members[11].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[11].name+'</h4><p class="designation">'+members[11].job+'</p><p>'+members[11].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[11].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[11])+'<a href="mailto:'+members[11].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#membro-12').html('<div class="inner-container"><img src="'+members[12].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[12].name+'</h4><p class="designation">'+members[12].job+'</p><p>'+members[12].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[12].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[12])+'<a href="mailto:'+members[12].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#membro-13').html('<div class="inner-container"><img src="'+members[13].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[13].name+'</h4><p class="designation">'+members[13].job+'</p><p>'+members[13].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[13].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[13])+'<a href="mailto:'+members[13].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-        
+    $('#membro-14').html('<div class="inner-container"><img src="'+members[14].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[13].name+'</h4><p class="designation">'+members[13].job+'</p><p>'+members[13].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[13].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[13])+'<a href="mailto:'+members[13].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
+    
   });
 
   function getMemberFacebook(member){

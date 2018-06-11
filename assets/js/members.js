@@ -1,13 +1,6 @@
   jQuery(window).load(function(){
     members = [
-        {
-            name: 'Alisson Vilas',
-            email: 'alisson@ecompjr.com.br',
-            github: 'https://github.com/AlissonSVV',
-            job: 'Membro Consultor',
-            text: 'Saberá subir na vida aquele que tem a humildade de descer quantas vezes precisar.',
-            image: 'images/members/member-1.jpg'
-        },
+       
         {
             name: 'Aloísio Junior',
             email: 'aloisio@ecompjr.com.br',
@@ -135,7 +128,63 @@
             job: 'Diretor de Projetos',
             text: 'Nós só podemos ver um pouco do futuro, mas o suficiente para perceber que há muito a fazer.',
             image: 'images/members/member-24.jpg'
-        },        
+        },
+        {
+            name: 'Eduardo Marques',
+            email: 'eduardo@ecompjr.com.br',
+            github: 'https://github.com/dukmarques',
+            job: 'Membro Consultor',
+            text: '. no mundo tereis aflições, mas tende bom ânimo; eu venci o mundo. João 16:33',
+            image: 'images/members/member-25.jpg'
+        },
+        {
+            name: 'Émylle Andressa ',
+            email: 'andressa@ecompjr.com.br',
+            github: 'https://github.com/eaborges',
+            job: 'Membro Consultor',
+            text: 'Seja você a mudança que deseja ver.',
+            image: 'images/members/member-26.jpg'
+        },
+        {
+            name: 'Ariana Pereira',
+            email: 'ariana@ecompjr.com.br',
+            github: 'https://github.com/arianjsp',
+            job: 'Membro Consultor',
+            text: '"Você nunca vai sair pelo seu próprio ritmo e atirar pedras em cada um dos homens que estão atrasados." - Winston Churchill',
+            image: 'images/members/member-27.jpg'
+        },              
+        {
+            name: 'Emanuel',
+            email: 'emanuel@ecompjr.com.br',
+            github: 'https://github.com/ecomp1997',
+            job: 'Membro Consultor',
+            text: '" O futuro vai mostrar os resultados e julgar cada um segundo como suas realizações.',
+            image: 'images/members/member-28.jpg'
+        },              
+        {
+            name: 'Gabriel Silva de Azevedo',
+            email: 'gabriel@ecompjr.com.br',
+            github: 'https://github.com/Matoro17',
+            job: 'Membro Consultor',
+            text: 'Ha sempre algo maior na próxima porta',
+            image: 'images/members/member-29.jpg'
+        },
+        {
+            name: 'Johnny Santtana',
+            email: 'johnny@ecompjr.com.br',
+            github: 'https://github.com/JohnnySanttana72',
+            job: 'Membro Consultor',
+            text: 'O espirito de luta,fortalece a união',
+            image: 'images/members/member-30.jpg'
+        },                         
+        {
+            name: 'Khaick Oliveira Brito',
+            email: 'khaick@ecompjr.com.br',
+            github: 'https://github.com/khaickbrito',
+            job: 'Membro Consultor',
+            text: '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
+            image: 'images/members/member-31.jpg'
+        },                                   
     ]
 
     members = shuffle(members);
