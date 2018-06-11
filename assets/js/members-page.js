@@ -56,22 +56,6 @@
             job: 'Membro Consultor',
             text: 'Não há pacto entre leões e homens.',
             image: 'images/members/member-22.jpg'
-        }, 
-        {
-            name: 'Kayo Costa',
-            email: 'kayo@ecompjr.com.br',
-            github: 'https://github.com/kayo220',
-            job: 'Conselheiro',
-            text: 'Pessoas > Máquinas',
-            image: 'images/members/member-7.jpg'
-        },  
-        {
-            name: 'Luan Victor',
-            email: 'luan@ecompjr.com.br',
-            github: 'https://github.com/luanvicttor',
-            job: 'Membro Consultor',
-            text: 'O segredo do sucesso é a constância de propósito.',
-            image: 'images/members/member-8.jpg'
         },  
         {
             name: 'Lucas Cardoso',
@@ -193,13 +177,13 @@
         job: 'Orientador',
         lattes: 'http://lattes.cnpq.br/3303713473565543'
     }]
-    diretores = [members[0],members[1], members[4], members[13], members[15]];
+    diretores = [members[0],members[1], members[4], members[11], members[13]];
     diretores = shuffle(diretores);
     
-    conselheiros = [members[2], members[7],members[12]];
+    conselheiros = [members[2],members[10]];
     conselheiros = shuffle(conselheiros);
     
-    members = [members[3],members[5],members[6],members[8],members[9],members[10],members[11],members[14],members[16],members[17],members[18],members[19],members[20],members[21],members[22]];
+    members = [members[3],members[5],members[6],members[8],members[9],members[12],members[14],members[15],members[16],members[17],members[18],members[19],members[20],];
     members = shuffle(members);
 
     $('#orientador-0').html('<div class="inner-container"><img src="'+orientador[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+orientador[0].name+'</h4><p class="designation">'+orientador[0].job+'</p><div class="member-social-link"><a target="_blank" href="'+orientador[0].lattes+'" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
@@ -209,12 +193,10 @@
     $('#diretor-2').html('<div class="inner-container"><img src="'+diretores[2].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[2].name+'</h4><p class="designation">'+diretores[2].job+'</p><p>'+diretores[2].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[2].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[2])+'<a href="mailto:'+diretores[2].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#diretor-3').html('<div class="inner-container"><img src="'+diretores[3].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[3].name+'</h4><p class="designation">'+diretores[3].job+'</p><p>'+diretores[3].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[3].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[3])+'<a href="mailto:'+diretores[3].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#diretor-4').html('<div class="inner-container"><img src="'+diretores[4].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[4].name+'</h4><p class="designation">'+diretores[4].job+'</p><p>'+diretores[4].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[4].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[4])+'<a href="mailto:'+diretores[4].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    //$('#diretor-5').html('<div class="inner-container"><img src="'+diretores[5].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+diretores[5].name+'</h4><p class="designation">'+diretores[5].job+'</p><p>'+diretores[5].text+'</p><div class="member-social-link"><a target="_blank" href="'+diretores[5].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(diretores[5])+'<a href="mailto:'+diretores[5].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     
 
     $('#conselheiro-0').html('<div class="inner-container"><img src="'+conselheiros[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+conselheiros[0].name+'</h4><p class="designation">'+conselheiros[0].job+'</p><p>'+conselheiros[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+conselheiros[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a><a href="mailto:'+conselheiros[0].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#conselheiro-1').html('<div class="inner-container"><img src="'+conselheiros[1].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+conselheiros[1].name+'</h4><p class="designation">'+conselheiros[1].job+'</p><p>'+conselheiros[1].text+'</p><div class="member-social-link"><a target="_blank" href="'+conselheiros[1].github+'" class="twitter-btn"><i class="fa fa-github"></i></a><a href="mailto:'+conselheiros[1].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#conselheiro-2').html('<div class="inner-container"><img src="'+conselheiros[2].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+conselheiros[2].name+'</h4><p class="designation">'+conselheiros[2].job+'</p><p>'+conselheiros[2].text+'</p><div class="member-social-link"><a target="_blank" href="'+conselheiros[2].github+'" class="twitter-btn"><i class="fa fa-github"></i></a><a href="mailto:'+conselheiros[2].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     
 
     $('#membro-0').html('<div class="inner-container"><img src="'+members[0].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[0].name+'</h4><p class="designation">'+members[0].job+'</p><p>'+members[0].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[0].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[0])+'<a href="mailto:'+members[0].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
@@ -231,7 +213,6 @@
     $('#membro-11').html('<div class="inner-container"><img src="'+members[11].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[11].name+'</h4><p class="designation">'+members[11].job+'</p><p>'+members[11].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[11].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[11])+'<a href="mailto:'+members[11].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#membro-12').html('<div class="inner-container"><img src="'+members[12].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[12].name+'</h4><p class="designation">'+members[12].job+'</p><p>'+members[12].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[12].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[12])+'<a href="mailto:'+members[12].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     $('#membro-13').html('<div class="inner-container"><img src="'+members[13].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[13].name+'</h4><p class="designation">'+members[13].job+'</p><p>'+members[13].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[13].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[13])+'<a href="mailto:'+members[13].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#membro-14').html('<div class="inner-container"><img src="'+members[14].image+'" alt="Team Member"><div class="member-details"><h4 class="name">'+members[13].name+'</h4><p class="designation">'+members[13].job+'</p><p>'+members[13].text+'</p><div class="member-social-link"><a target="_blank" href="'+members[13].github+'" class="twitter-btn"><i class="fa fa-github"></i></a>'+getMemberFacebook(members[13])+'<a href="mailto:'+members[13].email+'" ><i class="fa fa-envelope"></i></a></div></div></div>')
     
   });
 

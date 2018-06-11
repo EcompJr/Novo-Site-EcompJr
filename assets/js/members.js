@@ -57,22 +57,7 @@
             text: 'Não há pacto entre leões e homens.',
             image: 'images/members/member-22.jpg'
         }, 
-        {
-            name: 'Kayo Costa',
-            email: 'kayo@ecompjr.com.br',
-            github: 'https://github.com/kayo220',
-            job: 'Conselheiro',
-            text: 'Pessoas > Máquinas',
-            image: 'images/members/member-7.jpg'
-        },  
-        {
-            name: 'Luan Victor',
-            email: 'luan@ecompjr.com.br',
-            github: 'https://github.com/luanvicttor',
-            job: 'Membro Consultor',
-            text: 'O segredo do sucesso é a constância de propósito.',
-            image: 'images/members/member-8.jpg'
-        },  
+       
         {
             name: 'Lucas Cardoso',
             email: 'lucascardoso@ecompjr.com.br',
