@@ -45,7 +45,7 @@
             name: 'Gustavo Boanerges',
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
-            job: 'Assessor de administração',
+            job: 'Membro Consultor',
             text: 'Você pode encontrar as coisas que perdeu, mas nunca as que abandonou.',
             image: 'images/members/member-21.jpg'
         }, 
@@ -70,7 +70,7 @@
             name: 'Pedro Brandão',
             email: 'pedro@ecompjr.com.br',
             github: 'https://github.com/pedrohenriquebrandao',
-            job: 'Assessor de Marketing',
+            job: 'Gerente de Pós Venda e Feedback',
             text: 'Seja a mudança que quer ver no mundo.',
             image: 'images/members/member-14.jpg'
         },
@@ -134,12 +134,12 @@
             name: 'Ariana Pereira',
             email: 'ariana@ecompjr.com.br',
             github: 'https://github.com/arianjsp',
-            job: 'Membro Consultor',
-            text: '"Você nunca vai sair pelo seu próprio ritmo e atirar pedras em cada um dos homens que estão atrasados." - Winston Churchill',
+            job: 'Gerente das Redes Sociais',
+            text: '"Você nunca vai chegar ao seu destino se você parar e atirar pedras em cada cão que late." - Winston Churchill',
             image: 'images/members/member-27.jpg'
         },              
         {
-            name: 'Emanuel',
+            name: 'Emanuel Santana',
             email: 'emanuel@ecompjr.com.br',
             github: 'https://github.com/ecomp1997',
             job: 'Membro Consultor',
@@ -147,10 +147,10 @@
             image: 'images/members/member-28.jpg'
         },              
         {
-            name: 'Gabriel Silva de Azevedo',
+            name: 'Gabriel Azevedo',
             email: 'gabriel@ecompjr.com.br',
             github: 'https://github.com/Matoro17',
-            job: 'Membro Consultor',
+            job: 'Gerente de Comunicação Interna',
             text: 'Ha sempre algo maior na próxima porta',
             image: 'images/members/member-29.jpg'
         },
@@ -163,10 +163,10 @@
             image: 'images/members/member-30.jpg'
         },                         
         {
-            name: 'Khaick Oliveira Brito',
+            name: 'Khaick Brito',
             email: 'khaick@ecompjr.com.br',
             github: 'https://github.com/khaickbrito',
-            job: 'Membro Consultor',
+            job: 'Gerente de Vendas e Prospecção Ativa',
             text: '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
             image: 'images/members/member-31.jpg'
         },                                   
