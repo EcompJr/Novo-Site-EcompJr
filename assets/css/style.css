@@ -810,6 +810,26 @@ textarea.form-control{
 	margin: 0 auto;
 	padding: 0;
 }
+#page-port-tecnoexpress {
+	background: url(../../images/portfolio/tecnoexpress.png) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-tripeco {
+	background: url(../../images/portfolio/tripeco.png) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-plamol {
+	background: url(../../images/portfolio/plamol.png) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+#page-port-superSouza {
+	background: url(../../images/portfolio/superSouza.png) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
 #page-port-ref {
 	background: url(../../images/portfolio/ref_1.jpg) 50% 0 no-repeat fixed;
 	margin: 0 auto;
