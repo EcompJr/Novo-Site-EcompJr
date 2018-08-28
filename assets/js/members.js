@@ -25,14 +25,7 @@
             text: 'Não procure culpados, procure soluções.',
             image: 'images/members/member-4.jpg'
         },
-        {
-            name: 'Douglas Almeida',
-            email: 'douglas@ecompjr.com.br',
-            github: 'https://github.com/doug-ecomp',
-            job: 'Membro Consultor',
-            text: 'Creia em si, mas não duvide sempre dos outros.',
-            image: 'images/members/member-19.jpg'
-        },
+        
         {
             name: 'Emille Sampaio',
             email: 'emille@ecompjr.com.br',
@@ -82,14 +75,7 @@
             text: 'Tente mover o mundo - o primeiro passo será mover a si mesmo.',
             image: 'images/members/member-23.jpg'
         }, 
-        {
-            name: 'Pedro Neri',
-            email: 'pedroneri@ecompjr.com.br',
-            github: 'https://github.com/Pedneri1',
-            job: 'Conselheiro',
-            text: 'Falar é fácil, me mostre o código.',
-            image: 'images/members/member-15.jpg'
-        },  
+       
         {
             name: 'Saulo de Tarso',
             email: 'saulo@ecompjr.com.br',
