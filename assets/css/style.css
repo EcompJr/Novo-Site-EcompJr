@@ -2098,6 +2098,7 @@ textarea.form-control{
 ----------------------------------------------------------------------*/
 .quote-area {
 	text-align: center;
+	background-size: 100%;
 }
 .quote-area blockquote {
 	background-color: transparent;
