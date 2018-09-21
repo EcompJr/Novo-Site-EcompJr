@@ -830,6 +830,11 @@ textarea.form-control{
 	margin: 0 auto;
 	padding: 0;
 }
+#page-port-dipapel {
+	background: url(../../images/portfolio/dipapel.png) 50% 0 no-repeat fixed;
+	margin: 0 auto;
+	padding: 0;
+}
 #page-port-ref {
 	background: url(../../images/portfolio/ref_1.jpg) 50% 0 no-repeat fixed;
 	margin: 0 auto;
