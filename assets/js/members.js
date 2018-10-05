@@ -74,7 +74,15 @@
             job: 'Membro Consultor',
             text: 'Tente mover o mundo - o primeiro passo será mover a si mesmo.',
             image: 'images/members/member-23.jpg'
-        }, 
+        },
+        {
+            name: 'Pedro Neri',
+            email: 'pedroneri@ecompjr.com.br',
+            github: 'https://github.com/Pedneri1',
+            job: 'Conselheiro',
+            text: 'Falar é fácil, me mostre o código.',
+            image: 'images/members/member-15.jpg'
+        },   
        
         {
             name: 'Saulo de Tarso',
@@ -84,14 +92,7 @@
             text: 'Aprenda a ter disciplina, pois nem sempre haverá motivação.',
             image: 'images/members/member-16.jpg'
         },  
-        {
-            name: 'Thatianne Cristina',
-            email: 'thatianne@ecompjr.com.br',
-            github: 'https://github.com/Thatianne',
-            job: 'Membro Consultor',
-            text: 'Ninguém comete erro maior do que não fazer nada porque só pode fazer um pouco.',
-            image: 'images/members/member-17.jpg'
-        },
+
         {
             name: 'Valmir Almeida',
             email: 'valmir@ecompjr.com.br',
@@ -108,14 +109,7 @@
             text: '. no mundo tereis aflições, mas tende bom ânimo; eu venci o mundo. João 16:33',
             image: 'images/members/member-25.jpg'
         },
-        {
-            name: 'Émylle Andressa ',
-            email: 'andressa@ecompjr.com.br',
-            github: 'https://github.com/eaborges',
-            job: 'Membro Consultor',
-            text: 'Seja você a mudança que deseja ver.',
-            image: 'images/members/member-26.jpg'
-        },
+
         {
             name: 'Ariana Pereira',
             email: 'ariana@ecompjr.com.br',
