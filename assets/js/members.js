@@ -63,7 +63,7 @@
             name: 'Pedro Brandão',
             email: 'pedro@ecompjr.com.br',
             github: 'https://github.com/pedrohenriquebrandao',
-            job: 'Gerente de Pós Venda e Feedback',
+            job: 'Membro Consultor',
             text: 'Seja a mudança que quer ver no mundo.',
             image: 'images/members/member-14.jpg'
         },
@@ -71,7 +71,7 @@
             name: 'Pedro Gomes',
             email: 'pedrogomes@ecompjr.com.br',
             github: 'https://github.com/PHGSantos',
-            job: 'Membro Consultor',
+            job: 'Assessor de Projetos',
             text: 'Tente mover o mundo - o primeiro passo será mover a si mesmo.',
             image: 'images/members/member-23.jpg'
         },
@@ -114,7 +114,7 @@
             name: 'Ariana Pereira',
             email: 'ariana@ecompjr.com.br',
             github: 'https://github.com/arianjsp',
-            job: 'Gerente das Redes Sociais',
+            job: 'Assessora de marketing',
             text: '"Você nunca vai chegar ao seu destino se você parar e atirar pedras em cada cão que late." - Winston Churchill',
             image: 'images/members/member-27.jpg'
         },              
@@ -130,7 +130,7 @@
             name: 'Gabriel Azevedo',
             email: 'gabriel@ecompjr.com.br',
             github: 'https://github.com/Matoro17',
-            job: 'Gerente de Comunicação Interna',
+            job: 'Assessor de marketing',
             text: 'Ha sempre algo maior na próxima porta',
             image: 'images/members/member-29.jpg'
         },
@@ -141,12 +141,13 @@
             job: 'Membro Consultor',
             text: 'O espirito de luta,fortalece a união',
             image: 'images/members/member-30.jpg'
-        },                         
+        },
+                            
         {
             name: 'Khaick Brito',
             email: 'khaick@ecompjr.com.br',
             github: 'https://github.com/khaickbrito',
-            job: 'Gerente de Vendas e Prospecção Ativa',
+            job: 'Gerente de Venda e Prospecção Ativa',
             text: '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
             image: 'images/members/member-31.jpg'
         },                                   
