@@ -60,8 +60,8 @@ jQuery(window).load(function() {
             email: 'antonio@ecompjr.com.br',
             github: '',
             job: 'Diretor de Recursos Humanos',
-            text: '',
-            image: 'images/members/member-.jpg'
+            text: 'O único lugar onde o sucesso vem antes do trabalho é no dicionário - Einstein.',
+            image: 'images/members/member-39.jpg'
         },
 
         {
@@ -88,7 +88,7 @@ jQuery(window).load(function() {
             github: '',
             job: 'Membro Consultor',
             text: '',
-            image: 'images/members/member-.jpg'
+            image: 'images/members/member-38.jpg'
         },
 
         {
@@ -115,7 +115,7 @@ jQuery(window).load(function() {
             github: '',
             job: 'Membro Consultor',
             text: '.',
-            image: 'images/members/member-.jpg'
+            image: 'images/members/member-37.jpg'
         },
 
         {
