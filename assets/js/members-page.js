@@ -63,16 +63,16 @@
               text: 'O único lugar onde o sucesso vem antes do trabalho é no dicionário - Einstein.',
               image: 'images/members/member-39.jpg'
           },
-
-          {
-              name: 'Carlos Tinin',
-              email: 'carlos@ecompjr.com.br',
-              github: '',
-              job: 'Membro Consultor',
-              text: '',
-              image: 'images/members/member-.jpg'
-          },
-
+          /**
+                    {
+                        name: 'Carlos Tinin',
+                        email: 'carlos@ecompjr.com.br',
+                        github: '',
+                        job: 'Membro Consultor',
+                        text: '',
+                        image: 'images/members/member-45.jpg'
+                    },
+           */
           {
               name: 'Cássio Santos',
               email: 'cassio@ecompjr.com.br',
@@ -117,34 +117,34 @@
               text: '.',
               image: 'images/members/member-37.jpg'
           },
+          /**
+                    {
+                        name: 'Taison Machado',
+                        email: 'taison@ecompjr.com.br',
+                        github: '',
+                        job: 'Membro Consultor',
+                        text: '.',
+                        image: 'images/members/member-45.jpg'
+                    },
 
-          {
-              name: 'Taison Machado',
-              email: 'taison@ecompjr.com.br',
-              github: '',
-              job: 'Membro Consultor',
-              text: '.',
-              image: 'images/members/member-.jpg'
-          },
+                    {
+                        name: 'Vanessa Oliveira',
+                        email: 'vanessa@ecompjr.com.br',
+                        github: '',
+                        job: 'Membro Consultor',
+                        text: '.',
+                        image: 'images/members/member-45.jpg'
+                    },
 
-          {
-              name: 'Vanessa Oliveira',
-              email: 'vanessa@ecompjr.com.br',
-              github: '',
-              job: 'Membro Consultor',
-              text: '.',
-              image: 'images/members/member-.jpg'
-          },
-
-          {
-              name: 'Victor Souza',
-              email: 'victor@ecompjr.com.br',
-              github: '',
-              job: 'Membro Consultor',
-              text: '.',
-              image: 'images/members/member-.jpg'
-          },
-
+                    {
+                        name: 'Victor Souza',
+                        email: 'victor@ecompjr.com.br',
+                        github: '',
+                        job: 'Membro Consultor',
+                        text: '.',
+                        image: 'images/members/member-45.jpg'
+                    },
+          */
 
       ]
 
@@ -160,7 +160,7 @@
       //conselheiros = [members[0], members[9]];
       //conselheiros = shuffle(conselheiros);
 
-      members = [members[7], members[8], members[9], members[10], members[11], members[12], members[13], members[14], members[15]];
+      members = [members[7], members[8], members[9], members[10], members[11] /**, members[12], members[13], members[14], members[15] */ ];
       members = shuffle(members);
 
       $('#orientador-0').html('<div class="inner-container"><img src="' + orientador[0].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + orientador[0].name + '</h4><p class="designation">' + orientador[0].job + '</p><div class="member-social-link"><a target="_blank" href="' + orientador[0].lattes + '" class="twitter-btn"><i class="fa fa-link"></i></a></div></div></div>')
@@ -182,11 +182,11 @@
       $('#membro-2').html('<div class="inner-container"><img src="' + members[2].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[2].name + '</h4><p class="designation">' + members[2].job + '</p><p>' + members[2].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[2].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[2]) + '<a href="mailto:' + members[2].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
       $('#membro-3').html('<div class="inner-container"><img src="' + members[3].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[3].name + '</h4><p class="designation">' + members[3].job + '</p><p>' + members[3].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[3].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[3]) + '<a href="mailto:' + members[3].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
       $('#membro-4').html('<div class="inner-container"><img src="' + members[4].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[4].name + '</h4><p class="designation">' + members[4].job + '</p><p>' + members[4].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[4].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[4]) + '<a href="mailto:' + members[4].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-      $('#membro-5').html('<div class="inner-container"><img src="' + members[5].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[5].name + '</h4><p class="designation">' + members[5].job + '</p><p>' + members[5].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[5].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[5]) + '<a href="mailto:' + members[5].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
+          /** $('#membro-5').html('<div class="inner-container"><img src="' + members[5].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[5].name + '</h4><p class="designation">' + members[5].job + '</p><p>' + members[5].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[5].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[5]) + '<a href="mailto:' + members[5].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
       $('#membro-6').html('<div class="inner-container"><img src="' + members[6].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[6].name + '</h4><p class="designation">' + members[6].job + '</p><p>' + members[6].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[6].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[6]) + '<a href="mailto:' + members[6].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
       $('#membro-7').html('<div class="inner-container"><img src="' + members[7].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[7].name + '</h4><p class="designation">' + members[7].job + '</p><p>' + members[7].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[7].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[7]) + '<a href="mailto:' + members[7].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
       $('#membro-8').html('<div class="inner-container"><img src="' + members[8].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[8].name + '</h4><p class="designation">' + members[8].job + '</p><p>' + members[8].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[8].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[8]) + '<a href="mailto:' + members[8].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-
+ */
 
   });
 

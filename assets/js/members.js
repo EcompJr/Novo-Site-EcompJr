@@ -63,16 +63,16 @@ jQuery(window).load(function() {
             text: 'O único lugar onde o sucesso vem antes do trabalho é no dicionário - Einstein.',
             image: 'images/members/member-39.jpg'
         },
-
-        {
-            name: 'Carlos Tinin',
-            email: 'carlos@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '',
-            image: 'images/members/member-.jpg'
-        },
-
+        /**
+                {
+                    name: 'Carlos Tinin',
+                    email: 'carlos@ecompjr.com.br',
+                    github: '',
+                    job: 'Membro Consultor',
+                    text: '',
+                    image: 'images/members/member-.jpg'
+                },
+         */
         {
             name: 'Cássio Santos',
             email: 'cassio@ecompjr.com.br',
@@ -117,33 +117,33 @@ jQuery(window).load(function() {
             text: '.',
             image: 'images/members/member-37.jpg'
         },
+        /**
+                {
+                    name: 'Taison Machado',
+                    email: 'taison@ecompjr.com.br',
+                    github: '',
+                    job: 'Membro Consultor',
+                    text: '.',
+                    image: 'images/members/member-45.jpg'
+                },
 
-        {
-            name: 'Taison Machado',
-            email: 'taison@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '.',
-            image: 'images/members/member-.jpg'
-        },
-
-        {
-            name: 'Vanessa Oliveira',
-            email: 'vanessa@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '.',
-            image: 'images/members/member-.jpg'
-        },
-
-        {
-            name: 'Victor Souza',
-            email: 'victor@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '.',
-            image: 'images/members/member-.jpg'
-        },
+                {
+                    name: 'Vanessa Oliveira',
+                    email: 'vanessa@ecompjr.com.br',
+                    github: '',
+                    job: 'Membro Consultor',
+                    text: '.',
+                    image: 'images/members/member-45.jpg'
+                },
+         
+                {
+                    name: 'Victor Souza',
+                    email: 'victor@ecompjr.com.br',
+                    github: '',
+                    job: 'Membro Consultor',
+                    text: '.',
+                    image: 'images/members/member-45.jpg'
+                },*/
 
     ]
 
