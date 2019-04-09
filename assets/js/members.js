@@ -63,16 +63,24 @@ jQuery(window).load(function() {
             text: 'O único lugar onde o sucesso vem antes do trabalho é no dicionário - Einstein.',
             image: 'images/members/member-39.jpg'
         },
-        /**
-                {
-                    name: 'Carlos Tinin',
-                    email: 'carlos@ecompjr.com.br',
-                    github: '',
-                    job: 'Membro Consultor',
-                    text: '',
-                    image: 'images/members/member-.jpg'
-                },
-         */
+        {
+            name: 'Adriel Brito',
+            email: 'adrielbrito@ecompjr.com.br',
+            github: '',
+            job: 'Membro Consultor',
+            text: '',
+            image: 'images/members/member-42.jpg'
+        },
+
+        {
+            name: 'Carlos Tinin',
+            email: 'carlos@ecompjr.com.br',
+            github: '',
+            job: 'Membro Consultor',
+            text: '',
+            image: 'images/members/member-40.jpg'
+        },
+
         {
             name: 'Cássio Santos',
             email: 'cassio@ecompjr.com.br',
@@ -101,12 +109,20 @@ jQuery(window).load(function() {
         },
 
         {
-            name: 'Johnny Santtana',
-            email: 'johnny@ecompjr.com.br',
-            github: 'https://github.com/JohnnySanttana72',
+            name: 'João Pedro Costa',
+            email: 'pedrocosta@ecompjr.com.br',
+            github: '',
             job: 'Membro Consultor',
-            text: 'O espirito de luta,fortalece a união',
-            image: 'images/members/member-30.jpg'
+            text: '',
+            image: 'images/members/member-43.jpg'
+        },
+        {
+            name: 'Marco Antônio Rios',
+            email: 'marcorios@ecompjr.com.br',
+            github: '',
+            job: 'Membro Consultor',
+            text: '',
+            image: 'images/members/member-44.jpg'
         },
 
         {
@@ -117,33 +133,26 @@ jQuery(window).load(function() {
             text: '.',
             image: 'images/members/member-37.jpg'
         },
-        /**
-                {
-                    name: 'Taison Machado',
-                    email: 'taison@ecompjr.com.br',
-                    github: '',
-                    job: 'Membro Consultor',
-                    text: '.',
-                    image: 'images/members/member-45.jpg'
-                },
 
-                {
-                    name: 'Vanessa Oliveira',
-                    email: 'vanessa@ecompjr.com.br',
-                    github: '',
-                    job: 'Membro Consultor',
-                    text: '.',
-                    image: 'images/members/member-45.jpg'
-                },
-         
-                {
-                    name: 'Victor Souza',
-                    email: 'victor@ecompjr.com.br',
-                    github: '',
-                    job: 'Membro Consultor',
-                    text: '.',
-                    image: 'images/members/member-45.jpg'
-                },*/
+
+        {
+            name: 'Vanessa Oliveira',
+            email: 'vanessa@ecompjr.com.br',
+            github: '',
+            job: 'Membro Consultor',
+            text: '.',
+            image: 'images/members/member-45.jpg'
+        },
+
+
+        {
+            name: 'Victor Souza',
+            email: 'victor@ecompjr.com.br',
+            github: '',
+            job: 'Membro Consultor',
+            text: '.',
+            image: 'images/members/member-41.jpg'
+        },
 
     ]
 

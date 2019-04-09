@@ -952,6 +952,12 @@ textarea.form-control {
     padding: 0;
 }
 
+#page-port-cecomp {
+    background: url(../../images/portfolio/CEcomp.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 0;
+}
+
 #page-port-alfajr {
     background: url(../../images/portfolio/alfa.jpg) 50% 0 no-repeat fixed;
     margin: 0 auto;
