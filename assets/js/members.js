@@ -1,12 +1,12 @@
 jQuery(window).load(function() {
     members = [
-
         {
             name: 'Ariana Pereira',
             email: 'ariana@ecompjr.com.br',
             github: 'https://github.com/arianjsp',
             job: 'Vice-Presidente',
-            text: '"Você nunca vai chegar ao seu destino se você parar e atirar pedras em cada cão que late." - Winston Churchill',
+            text:
+                '"Você nunca vai chegar ao seu destino se você parar e atirar pedras em cada cão que late." - Winston Churchill',
             image: 'images/members/member-27.jpg'
         },
 
@@ -15,7 +15,8 @@ jQuery(window).load(function() {
             email: 'emanuel@ecompjr.com.br',
             github: 'https://github.com/ecomp1997',
             job: 'Diretor de Marketing',
-            text: '" O futuro vai mostrar os resultados e julgar cada um segundo suas realizações.',
+            text:
+                '" O futuro vai mostrar os resultados e julgar cada um segundo suas realizações.',
             image: 'images/members/member-28.jpg'
         },
 
@@ -24,7 +25,8 @@ jQuery(window).load(function() {
             email: 'emille@ecompjr.com.br',
             github: 'https://github.com/emillevic',
             job: 'Presidente',
-            text: '"Você pode ficar desapontado se falhar, mas você está condenado se não tentar." - Beverly Sills',
+            text:
+                '"Você pode ficar desapontado se falhar, mas você está condenado se não tentar." - Beverly Sills',
             image: 'images/members/member-20.jpg'
         },
 
@@ -42,7 +44,8 @@ jQuery(window).load(function() {
             email: 'khaick@ecompjr.com.br',
             github: 'https://github.com/khaickbrito',
             job: 'Diretor Comercial',
-            text: '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
+            text:
+                '"A vida é como a música, os altos e baixos se completam fazendo a melhor das melodias"',
             image: 'images/members/member-31.jpg'
         },
 
@@ -51,7 +54,8 @@ jQuery(window).load(function() {
             email: 'lucascardoso@ecompjr.com.br',
             github: 'https://github.com/skillinhow',
             job: 'Diretor Administrativo Financeiro',
-            text: 'Tudo é como um cubo mágico, aparentemente impossível, mas tudo é questão de perspectiva.',
+            text:
+                'Tudo é como um cubo mágico, aparentemente impossível, mas tudo é questão de perspectiva.',
             image: 'images/members/member-10.jpg'
         },
 
@@ -96,7 +100,8 @@ jQuery(window).load(function() {
             email: 'gustavo@ecompjr.com.br',
             github: 'https://github.com/gboanerges',
             job: 'Membro Consultor',
-            text: 'Você pode encontrar as coisas que perdeu, mas nunca as que abandonou.',
+            text:
+                'Você pode encontrar as coisas que perdeu, mas nunca as que abandonou.',
             image: 'images/members/member-21.jpg'
         },
 
@@ -143,25 +148,41 @@ jQuery(window).load(function() {
             job: 'Membro Consultor',
             text: '.',
             image: 'images/members/member-.jpg'
-        },
-
-    ]
+        }
+    ];
 
     members = shuffle(members);
 
-    $('#member-0').html('<div class="inner-container"><img src="' + members[0].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[0].name + '</h4><p class="designation">' + members[0].job + '</p><p>' + members[0].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[0].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[0]) + '<a href="mailto:' + members[0].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-1').html('<div class="inner-container"><img src="' + members[1].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[1].name + '</h4><p class="designation">' + members[1].job + '</p><p>' + members[1].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[1].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[1]) + '<a href="mailto:' + members[1].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-2').html('<div class="inner-container"><img src="' + members[2].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[2].name + '</h4><p class="designation">' + members[2].job + '</p><p>' + members[2].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[2].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[2]) + '<a href="mailto:' + members[2].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-    $('#member-3').html('<div class="inner-container"><img src="' + members[3].image + '" alt="Team Member"><div class="member-details"><h4 class="name">' + members[3].name + '</h4><p class="designation">' + members[3].job + '</p><p>' + members[3].text + '</p><div class="member-social-link"><a target="_blank" href="' + members[3].github + '" class="twitter-btn"><i class="fa fa-github"></i></a>' + getMemberFacebook(members[3]) + '<a href="mailto:' + members[3].email + '" ><i class="fa fa-envelope"></i></a></div></div></div>')
-
+    members.forEach((member, index) => {
+        $(`#member-${index}`).html(
+            '<div class="inner-container"><img src="' +
+                member.image +
+                '" alt="Team Member"><div class="member-details"><h4 class="name">' +
+                member.name +
+                '</h4><p class="designation">' +
+                member.job +
+                '</p><p>' +
+                member.text +
+                '</p><div class="member-social-link"><a target="_blank" href="' +
+                member.github +
+                '" class="twitter-btn"><i class="fa fa-github"></i></a>' +
+                getMemberFacebook(member) +
+                '<a href="mailto:' +
+                member.email +
+                '" ><i class="fa fa-envelope"></i></a></div></div></div>'
+        );
+    });
 });
-
 
 function getMemberFacebook(member) {
     if (member.facebook) {
-        return '<a target="_blank" href="' + member.facebook + '" class="facebook-btn"><i class="fa fa-facebook"></i></a>';
+        return (
+            '<a target="_blank" href="' +
+            member.facebook +
+            '" class="facebook-btn"><i class="fa fa-facebook"></i></a>'
+        );
     } else {
-        return ''
+        return '';
     }
 }
 
