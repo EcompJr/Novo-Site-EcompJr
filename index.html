@@ -278,7 +278,7 @@
             <div class="container">
                 <div class="services">
                     <ul class="service-container">
-                        <li class="item col-md-4 col-sm-6">
+                        <li class="item col-md-4 col-sm-6" id="site" data-toggle="modal" data-key="site" data-target="#modal">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_photo"></span>
                             </div>
@@ -292,9 +292,26 @@
                             </p>
                             <!-- /.item-description -->
                         </li>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="modalTitle"></h4>
+                                </div>
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6">
+                        <li class="item col-md-4 col-sm-6" id="local" data-toggle="modal" data-title="local" data-target="#modal">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_display"></span>
                             </div>
@@ -310,7 +327,7 @@
                         </li>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6">
+                        <li class="item col-md-4 col-sm-6" id="app" data-toggle="modal" data-title="app" data-target="#modal">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_phone"></span>
                             </div>
@@ -326,7 +343,7 @@
                         </li>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6">
+                        <li class="item col-md-4 col-sm-6" id="web" data-toggle="modal" data-title="web" data-target="#modal">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_cloud"></span>
                             </div>
@@ -342,7 +359,7 @@
                         </li>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6">
+                        <li class="item col-md-4 col-sm-6" id="commerce" data-toggle="modal" data-title="commerce" data-target="#modal">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_banknote"></span>
                             </div>
@@ -833,7 +850,7 @@
 			<i class="fa fa-chevron-up"></i>    
 		</span>
             </div>
-
+            
             <!-- Include modernizr-2.8.0.min.js -->
             <script src="assets/js/modernizr-2.8.0.min.js"></script>
 
@@ -866,6 +883,10 @@
 
             <!-- Include Members load -->
             <script src="assets/js/members.js"></script>
+
+            <!-- Include index.js -->
+            <script src="assets/js/index.js"></script>
+
 
             <script type="text/javascript">
                 /*----------- wow animation with support of wow.js and animation.css ----------------*/
