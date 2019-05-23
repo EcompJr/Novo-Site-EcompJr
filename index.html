@@ -740,6 +740,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                                                Realize um Orçamento rápipdo para Sites Institucionais!
+                                              </button>
                                     <div style="visibility: visible; animation-name: fadeInLeft;" class="col-lg-6 col-sm-7 wow fadeInLeft animated">
                                         <div>
                                             <h3><i class="fa fa-map-marker"></i> Endereço:</h3>
@@ -850,6 +853,111 @@
 			<i class="fa fa-chevron-up"></i>    
 		</span>
             </div>
+
+            <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Orçamento</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <form>
+                            <div class="container">
+                                <h6>Orçamento para um site institucional</h6>
+                                <div class="col">
+                                    <div class="col-md-4">
+                                        <h5>Base (MVP)</h5>
+                                        <div class="custom-control custom-checkbox">
+                                            <input id="design__" type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                                            <label class="custom-control-label" for="defaultChecked2">Design</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="home__" type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                                            <label class="custom-control-label" for="defaultChecked2">Home</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="blog" type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                                            <label class="custom-control-label" for="defaultChecked2">Página de Blog</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="blog_filter" type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+                                            <label class="custom-control-label" for="defaultChecked2">Busca e Filtro de posts</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h5>Funções Extras</h5>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="categoria_posts" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Categorias de Posts</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="listagem_destaque" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Listagem dos posts em destaque</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="related_Posts" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Postagens Relacionadas</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="Share" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Compartilhar nas redes Sociais</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="Likes" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Curtidas nos Posts</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="Count_acess" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Contabilização de acesso aos Posts</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="adm_register" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Cadastro de Administrador</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="anonimous_coment" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Comentários anônimos</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="videos" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Vídeos</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="newsletter" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Newsletter</label>
+                                          </div>
+                                          <div class="custom-control custom-checkbox">
+                                            <input id="geleria" type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Galeria</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-primary btn-lg" onclick="orca()">Orçar</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 id="result"></h2>
+                                    </div>
+                                    <div class="col-md-12">
+                                            <h6>Tem alguma dúvida a respeito do preço? Entra em contato com a gente!</h6>
+                                    </div>
+                                    
+                            </div>
+                              
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+            </div>
+        </div>
             
             <!-- Include modernizr-2.8.0.min.js -->
             <script src="assets/js/modernizr-2.8.0.min.js"></script>
@@ -887,6 +995,7 @@
             <!-- Include index.js -->
             <script src="assets/js/index.js"></script>
 
+            <script src="assets/js/orcamento.js"></script>
 
             <script type="text/javascript">
                 /*----------- wow animation with support of wow.js and animation.css ----------------*/
