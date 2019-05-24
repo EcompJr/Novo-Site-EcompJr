@@ -18,6 +18,8 @@
     <!-- icon fonts font Awesome -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
+    <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet" crossorigin="anonymous">
+
     <!-- icon fonts linecons -->
     <link href="assets/css/linecons-font-style.css" rel="stylesheet">
 
@@ -278,7 +280,7 @@
             <div class="container">
                 <div class="services">
                     <ul class="service-container">
-                        <li class="item col-md-4 col-sm-6" id="site" data-toggle="modal" data-key="site" data-target="#modal">
+                        <li class="item col-md-4 col-sm-6" id="site" data-toggle="modal" data-key="site" data-target="#modalSites">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_photo"></span>
                             </div>
@@ -294,24 +296,29 @@
                         </li>
                         
                         <!-- Modal -->
-                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal fade" id="modalSites" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="modalTitle"></h4>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="modalTitle">Sites</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>Por que eu deveria ter um site da minha empresa?</h6>
+                                        <div >
+                                            <div><i class="fas fa-angle-double-right"></i> Divulgação da sua empresa facilitando a criação de novos clientes</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Fortalecimento da imagem da sua empresa</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Informações importantes disponíveis e de fácil acesso aos seus clientes</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Divulgação dos seus produtos e serviços</div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer"></div>
                                 </div>
-                                <div class="modal-body">
-                                ...
-                                </div>
-                                <div class="modal-footer">
-                                </div>
-                            </div>
                             </div>
                         </div>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6" id="local" data-toggle="modal" data-title="local" data-target="#modal">
+                        <li class="item col-md-4 col-sm-6" id="local" data-toggle="modal" data-title="local" data-target="#modalSistemas">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_display"></span>
                             </div>
@@ -325,9 +332,29 @@
                             </p>
                             <!-- /.item-description -->
                         </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalSistemas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalTitle">Sistemas - Locais</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>O que é possível com um Sistema Local?</h6>
+                                        <div >
+                                            <div><i class="fas fa-angle-double-right"></i> Uma plataforma exclusiva para gestão de estoque ou finanças</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Não há a necessidade de hospedagem na internet</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Seus dados ficarão salvos no seu computador</div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6" id="app" data-toggle="modal" data-title="app" data-target="#modal">
+                        <li class="item col-md-4 col-sm-6" id="app" data-toggle="modal" data-title="app" data-target="#modalMobile">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_phone"></span>
                             </div>
@@ -341,9 +368,30 @@
                             </p>
                             <!-- /.item-description -->
                         </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalMobile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalTitle">Aplicativo Mobile</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>Quais vantagens um aplicativo pode trazer para a minha empresa?</h6>
+                                        <div >
+                                            <div><i class="fas fa-angle-double-right"></i> Alcance de muitos clientes</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Fidelização dos clientes</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Fortalecimento da Marca</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Aumento de ganhos</div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6" id="web" data-toggle="modal" data-title="web" data-target="#modal">
+                        <li class="item col-md-4 col-sm-6" id="web" data-toggle="modal" data-title="web" data-target="#modalWeb">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_cloud"></span>
                             </div>
@@ -357,9 +405,30 @@
                             </p>
                             <!-- /.item-description -->
                         </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalWeb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalTitle">Sistemas - Web</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>Por que um sistema web pode ser útil para mim?</h6>
+                                        <div >
+                                            <div><i class="fas fa-angle-double-right"></i> Acessível a partir de qualquer dispositivo conectado à internet.</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Não há a necessidade de instalação do sistema em cada computador</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Economia de recursos com infra-estrutura</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Aquisição de um sistema exclusivo que atenda bem suas necessidades</div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- /.item -->
 
-                        <li class="item col-md-4 col-sm-6" id="commerce" data-toggle="modal" data-title="commerce" data-target="#modal">
+                        <li class="item col-md-4 col-sm-6" id="commerce" data-toggle="modal" data-title="commerce" data-target="#modalECommerce">
                             <div class="service-icon">
                                 <span aria-hidden="true" class="li_banknote"></span>
                             </div>
@@ -373,6 +442,27 @@
                             </p>
                             <!-- /.item-description -->
                         </li>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalECommerce" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalTitle">e-Commerce</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>Por que a minha loja precisa de um e-Commerce?</h6>
+                                        <div >
+                                            <div><i class="fas fa-angle-double-right"></i> Baixo custo operacional</div>
+                                            <div><i class="fas fa-angle-double-right"></i> De fácil acesso para os clientes</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Possibilidade de verificação de estatísticas</div>
+                                            <div><i class="fas fa-angle-double-right"></i> Alto poder de alcance</div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer"></div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- /.item -->
                     </ul>
                     <!-- /.service-container -->
