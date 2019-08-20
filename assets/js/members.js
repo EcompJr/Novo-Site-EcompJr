@@ -99,14 +99,6 @@ jQuery(window).load(function() {
             image: 'images/members/member-38.jpg'
         },
 
-        {
-            name: 'Gustavo Boanerges',
-            email: 'gustavo@ecompjr.com.br',
-            github: 'https://github.com/gboanerges',
-            job: 'Membro Consultor',
-            text: 'Você pode encontrar as coisas que perdeu, mas nunca as que abandonou.',
-            image: 'images/members/member-21.jpg'
-        },
 
         {
             name: 'João Pedro Costa',
@@ -116,14 +108,7 @@ jQuery(window).load(function() {
             text: '',
             image: 'images/members/member-43.jpg'
         },
-        {
-            name: 'Marco Antônio Rios',
-            email: 'marcorios@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '',
-            image: 'images/members/member-44.jpg'
-        },
+
 
         {
             name: 'Rafael Brito',
@@ -144,15 +129,6 @@ jQuery(window).load(function() {
             image: 'images/members/member-45.jpg'
         },
 
-
-        {
-            name: 'Victor Souza',
-            email: 'victor@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '.',
-            image: 'images/members/member-41.jpg'
-        },
 
     ]
 
