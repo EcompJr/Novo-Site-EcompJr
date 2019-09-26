@@ -81,14 +81,7 @@ jQuery(window).load(function() {
             image: 'images/members/member-40.jpg'
         },
 
-        {
-            name: 'Cássio Santos',
-            email: 'cassio@ecompjr.com.br',
-            github: 'https://github.com/ssscassio',
-            job: 'Membro Consultor',
-            text: 'Não procure culpados, procure soluções.',
-            image: 'images/members/member-4.jpg'
-        },
+
 
         {
             name: 'Elvis Huges',
@@ -120,14 +113,6 @@ jQuery(window).load(function() {
         },
 
 
-        {
-            name: 'Vanessa Oliveira',
-            email: 'vanessa@ecompjr.com.br',
-            github: '',
-            job: 'Membro Consultor',
-            text: '.',
-            image: 'images/members/member-45.jpg'
-        },
 
 
     ]

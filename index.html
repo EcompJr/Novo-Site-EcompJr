@@ -2,6 +2,40 @@
 <html lang="pt">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147456793-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147456793-1');
+    </script>
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5FD9QLP');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="UTF-8">
     <title>EcompJr</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -10,6 +44,7 @@
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
     <!-- Bootstrap  -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -40,11 +75,16 @@
     <link href="assets/css/responsive.css" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
 
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FD9QLP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Page Top	 -->
     <div id="page-top"></div>
     <!-- Page Top End -->
@@ -840,7 +880,7 @@
                                 </div>
                                 <div>
                                     <h3><i class="fa fa-phone"></i> Telefone:</h3>
-                                    <span>(75) 99285-1111</span>
+                                    <span>(75) 98897-6806</span>
                                 </div>
                                 <div>
                                     <h3><i class="fa fa-envelope"></i> email:</h3>
@@ -899,16 +939,19 @@
     <!-- Contact Section End -->
 
     <!-- Google Map Section -->
-    <div id="google-map">
-        <div class="map-container">
-            <div id="googleMaps" class="google-map-container"></div>
+    <div id="goog">
+        <div class="map">
+            <div id="goog" class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3899.701436897378!2d-38.975318370114124!3d-12.200707028713513!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143889364b821b%3A0xae5e88b833ba28f3!2sEcompJr!5e0!3m2!1spt-BR!2sbr!4v1568054667817!5m2!1spt-BR!2sbr"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
         </div>
     </div>
     <!-- /#google-map-->
     <!-- Google Map Section End -->
 
     <!-- Footer Section -->
-    <footer>
+    <footer id="footer-section">
         <div class="footer-section">
             <div class="pattern">
                 <div class="container">
@@ -929,7 +972,7 @@
 
         <div class="copyrights">
             <div class="container">
-                <img width="70px" src="images/favicon.png" alt="EcompJr Logo"><br> Copyright &copy; <a target="_blank" href="https://github.com/EcompJr">EcompJr.</a> 2019
+                <img width="70px" src="images/favicon.png" alt="EcompJr Logo"><br> Copyright &copy; <a target="_blank" href="https://github.com/EcompJr">EcompJr.</a> 2017
             </div>
             <!-- /.container -->
         </div>
@@ -1074,9 +1117,6 @@
     <script src="assets/js/jquery.content_slider.min.js"></script>
     <script src="assets/js/jquery.mousewheel.js"></script>
 
-    <!-- Google Maps Script  -->
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAWRTwYBa662k8oJMwmgeRN0FWmzoKwjwE"></script>
-
     <!-- Gmap3.js For Static Maps -->
     <script src="assets/js/gmap3.js"></script>
 
@@ -1102,7 +1142,7 @@
             "use strict";
 
             /*---------------------- Current Menu Item -------------------------*/
-            $('#main-menu #headernavigation').onePageNav({
+            $('#main-menu ', ' #headernavigation').onePageNav({
                 currentClass: 'active',
                 changeHash: false,
                 scrollSpeed: 750,
@@ -1118,57 +1158,9 @@
 
         function isMobile() {
             return ('ontouchstart' in document.documentElement);
-        }
-
-        function init_gmap() {
-            if (typeof google == 'undefined') return;
-            var options = {
-                center: [-12.20057, -38.973429],
-                zoom: 15,
-                mapTypeControl: true,
-                mapTypeControlOptions: {
-                    style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-                },
-                navigationControl: true,
-                scrollwheel: false,
-                streetViewControl: true
-            }
-
-            if (isMobile()) {
-                options.draggable = false;
-            }
-
-            $('#googleMaps').gmap({
-                map: {
-                    options: options
-                },
-                marker: {
-                    latLng: [-12.20057, -38.973429],
-                    options: {
-                        icon: 'assets/images/mapicon.png'
-                    }
-                }
-            });
-        }
-
-        init_gmap();
+        };
     </script>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-102410348-1', 'auto');
-        ga('send', 'IndexView');
-    </script>
 </body>
 
 </html>
