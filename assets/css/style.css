@@ -964,6 +964,18 @@ textarea.form-control {
     padding: 0;
 }
 
+#page-port-resolve-uefs {
+    background: url(../../images/portfolio/resolveuefs.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#page-port-life-jr {
+    background: url(../../images/portfolio/life.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    padding: 0;
+}
+
 #page-port-carvalhoalves {
     background: url(../../images/portfolio/carvalho-alves.jpg) 50% 0 no-repeat fixed;
     margin: 0 auto;
